@@ -1,0 +1,103 @@
+@startuml "Robot Layler"
+
+scale 300 width
+top to bottom direction
+
+
+Actor "User Layer" as Ac
+Cloud "Cloud Layer" as CloudLayer
+rectangle "Simulator" as Simulator
+
+rectangle " " as Robot {
+
+    Cloud "AI Layer" as Lv5 {
+        card 音声認識 [
+            音声認識
+        ]
+        card 画像認識 [
+            画像認識
+            ====
+            + 顔認識
+            + 自分認識／物体認識
+        ]
+    }
+
+    rectangle "Application Layer" as Lv4 {
+        card Navigation [
+            Navigation
+        ]
+        card Service [
+            Service
+        ]
+    }
+
+    rectangle "Communication Layer" as Lv3 {
+        card 通信プロトコル [
+            通信プロトコル
+            ====
+            + ROS/DDS
+            + Modbus
+            + e.t.c.
+        ]
+    }
+
+
+    rectangle "Physical Layer" as Lv1 {
+        card Lv1_Control [
+            Controller
+            ====
+            + Motor Driver
+            + ECU
+        ]
+        card Lv1_Connector [
+            Connector
+            ====
+            + UART
+            + I2C
+            + SPI(1/2/4)
+            + CAN
+            + EtherCAT
+        ]
+        card Lv1_Driven [
+            Control Driven
+            ====
+            + Sensor
+            + Actuator
+        ]
+
+        card Lv1_Physique [
+            Control Physique
+            ====
+            + Frame
+            + 外装
+        ]
+
+    }
+
+}
+
+Ac <-down-> Lv5
+Simulator <-down-> Ac
+Simulator <-down-> Lv5
+CloudLayer <-right-> Lv5
+CloudLayer <-right-> Lv4
+
+Lv5 -down- Lv4
+Lv4 -down- Lv3
+Lv3 -down- Lv1
+Lv1_Control -down- Lv1_Connector
+Lv1_Connector -down- Lv1_Driven
+Lv1_Driven -down- Lv1_Physique
+
+@enduml
+
+card カード [
+これは<b>カード</b>です
+----
+境界線として
+====
+いろいろな種類の
+....
+スタイルが使えます
+<i><color:blue>(add from V1.2020.7)</color></i>
+]

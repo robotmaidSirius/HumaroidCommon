@@ -1,0 +1,3421 @@
+<!DOCTYPE html><html><head>
+      <title>index</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\I_wri\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.11\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}@font-face{font-family:"Material Icons";font-style:normal;font-weight:400;src:local("Material Icons"),local("MaterialIcons-Regular"),url("data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAfIAAsAAAAADDAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFZW7kosY21hcAAAAYAAAADTAAACjtP6ytBnbHlmAAACVAAAAxgAAAQ4zRtvlGhlYWQAAAVsAAAALwAAADYRwZsnaGhlYQAABZwAAAAcAAAAJAeKAzxobXR4AAAFuAAAABIAAAA8OGQAAGxvY2EAAAXMAAAAIAAAACAG5AfwbWF4cAAABewAAAAfAAAAIAEfAERuYW1lAAAGDAAAAVcAAAKFkAhoC3Bvc3QAAAdkAAAAYgAAAK2vz7wkeJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2BkPsQ4gYGVgYOpk+kMAwNDP4RmfM1gxMjBwMDEwMrMgBUEpLmmMDgwVLy4xKzzX4chhrmK4QpQmBEkBwAZygyweJzFkr0NwjAQhZ+TEP6CRUfHBEwRUWaQTICyQbpMwRCskA5RUIONxG0RnnNpKAIV4qzPku/8c353ACYAYrIjCWCuMAh2ptf0/hiL3p/gyPUWa3osqlt0L1zu9r71z8dGrJRykFoauXQd932Lj5vhG+MjxGeYI8MKETObMpslf5EyP8tg+vHun5r539PvlvXzaVhRFVQDTPEWKVQR90KhnnC5Ek67vUKN4VuFasM/ldARj43CCkCsEjpJSoVVgRyU0GVSK6wUpFFCx8lFgX0BiXpRPQB4nE2TTWjcRhTH3xttpDhxN7uxPlp3u/FK7moRPixafRijNosxSw/LUsIwNcaEHPZggo/FmEKMCKWU4kNOOftQSlhE8alnH0Ix9BqWnHooPRrTQ0+mnu2bXTu2pPdGM9LM/6c3fwECTM4gBBMYQNqxzLrZAjqYSlqu2TAHZQA0/DQJH6FtzqGDnvbt4Ggwvzw/nL8EfH8kW0fsuRqhgWXZnY7M1picaUL7Du5BHeDzMIl83dAt016wH1qmvtSMo5R6YRJHTR//FXsff/nj/tc/5K9P5d+nP22+fFK5u7v3K39SW3y+OtDKO3L85vD09PD9z5X17a2N1g4tqk01RlqX7gyoEmnsWQtVr4rtZMmukEaFBZxzefkCn11cyKMLZgshRwgTYNoLNXCBz2ja7HvZG7hDpPSNfoo5vs0knK/9hb+rNpu+8kHPgk/Ao4kK3tWtTpSEtvkA9c+wE6UaUdwieNkaHg55tBEtRiEPw1s0+FtrtTcc9two2lhMknV7PZF/cs6+uUFTmpTGbEx7sQCPSLOttHS3GRltqp7SNzVSKzl6aWnZT/CX5k6/v9N3Hh8fHBwffJVjhrC6OgH5dkIt/tPsq+d/PD5Qz7G7efzq1THFjdZVPe/N6ulQ3JnDWSE5junsFsVIiFwL/htf1S5gJ3BfOcUxfHKLnzqpFpyfZ9cX+/5WB6a+Y0pHpzkNrYNVDwMsikK+y7WuLCRg/oFHkA8VT3rDg5ZnU6ktzzINymV0m74Xd5pfIGXyFeVEQSShkzqG7TBBa2OxVRKitLXv7h3uuftXnXq7lz2tZ/WnWa9dx9dCjDhHzmuVQATlmljr9dZErUydSo2Hbi/b1vXtrOeGCk2/8s3ZlO8+ueJT8BVlw5pGw2oYccdSiHHqx0RlabHqdNR9jAETl6PreJcPBnnfpTLnOQ8C3OV8AmQGzouV1iZdeb5SSIoVc8W8/kcDtksUH5FrU6/aqBqNWcMEzxG4DAQ14qRQhi9mWU0rzepKezbjfgCwQKxVYq5ajRgpRqy45CqwkJydcEkbTkvRz8P5/2ZpDTN4nGNgZGBgAOKb6v+/xvPbfGXgZmEAgeuB2kkI+v8bFgbmKiCXg4EJJAoAPyAKhQB4nGNgZGBg1vmvwxDDwgACQJKRARXwAwAzZQHQeJxjYQCCFAYGFgbSMQAcWACdAAAAAAAAAAwALgBgAIQAmADSAQgBIgE8AVABoAHeAfwCHHicY2BkYGDgZ7BgYGMAASYg5gJCBob/YD4DAA/hAWQAeJxlkbtuwkAURMc88gApQomUJoq0TdIQzEOpUDokKCNR0BuzBiO/tF6QSJcPyHflE9Klyyekz2CuG8cr7547M3d9JQO4xjccnJ57vid2cMHqxDWc40G4Tv1JuEF+Fm6ijRfhM+oz4Ra6eBVu4wZvvMFpXLIa40PYQQefwjVc4Uu4Tv1HuEH+FW7i1mkKn6Hj3Am3sHC6wm08Ou8tpSZGe1av1PKggjSxPd8zJtSGTuinyVGa6/Uu8kxZludCmzxMEzV0B6U004k25W35fj2yNlCBSWM1paujKFWZSbfat+7G2mzc7weiu34aczzFNYGBhgfLfcV6iQP3ACkSaj349AxXSN9IT0j16JepOb01doiKbNWt1ovippz6sVYYwsXgX2rGVFIkq7Pl2PNrI6qW6eOshj0xaSq9mpNEZIWs8LZUfOouNkVXxp/d5woqebeYIf4D2J1ywQB4nG3LOw6AIBAE0B384B+PAkgEa+QwNnYmHt+EpXSal5lkSBBnoP8oCFSo0aCFRIceA0ZMmLFAYSW88rmvtMUjG3RiQ9HvpfusM6zWNmtc5H/iPewha50tOt5PS/QBx2IeSwAA") format("woff")}.admonition{box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.2);position:relative;margin:1.5625em 0;padding:0 1.2rem;border-left:.4rem solid rgba(68,138,255,.8);border-radius:.2rem;background-color:rgba(255,255,255,.05);overflow:auto}.admonition>p{margin-top:.8rem}.admonition>.admonition-title{margin:0 -1.2rem;padding:.8rem 1.2rem .8rem 3.6rem;border-bottom:1px solid rgba(68,138,255,.2);background-color:rgba(68,138,255,.1);font-weight:700}.admonition>.admonition-title:before{position:absolute;left:1.2rem;font-size:1.5rem;color:rgba(68,138,255,.8);content:"\E3C9"}.admonition>.admonition-title:before{font-family:Material Icons;font-style:normal;font-variant:normal;font-weight:400;line-height:2rem;text-transform:none;white-space:nowrap;speak:none;word-wrap:normal;direction:ltr}.admonition.abstract,.admonition.summary,.admonition.tldr{border-left-color:rgba(0,176,255,.8)}.admonition.abstract>.admonition-title,.admonition.summary>.admonition-title,.admonition.tldr>.admonition-title{background-color:rgba(0,176,255,.1);border-bottom-color:rgba(0,176,255,.2)}.admonition.abstract>.admonition-title:before,.admonition.summary>.admonition-title:before,.admonition.tldr>.admonition-title:before{color:#00b0ff;content:"\E8D2"}.admonition.hint,.admonition.tip{border-left-color:rgba(0,191,165,.8)}.admonition.hint>.admonition-title,.admonition.tip>.admonition-title{background-color:rgba(0,191,165,.1);border-bottom-color:rgba(0,191,165,.2)}.admonition.hint>.admonition-title:before,.admonition.tip>.admonition-title:before{color:#00bfa5;content:"\E80E"}.admonition.info,.admonition.todo{border-left-color:rgba(0,184,212,.8)}.admonition.info>.admonition-title,.admonition.todo>.admonition-title{background-color:rgba(0,184,212,.1);border-bottom-color:rgba(0,184,212,.2)}.admonition.info>.admonition-title:before,.admonition.todo>.admonition-title:before{color:#00b8d4;content:"\E88E"}.admonition.check,.admonition.done,.admonition.success{border-left-color:rgba(0,200,83,.8)}.admonition.check>.admonition-title,.admonition.done>.admonition-title,.admonition.success>.admonition-title{background-color:rgba(0,200,83,.1);border-bottom-color:rgba(0,200,83,.2)}.admonition.check>.admonition-title:before,.admonition.done>.admonition-title:before,.admonition.success>.admonition-title:before{color:#00c853;content:"\E876"}.admonition.faq,.admonition.help,.admonition.question{border-left-color:rgba(100,221,23,.8)}.admonition.faq>.admonition-title,.admonition.help>.admonition-title,.admonition.question>.admonition-title{background-color:rgba(100,221,23,.1);border-bottom-color:rgba(100,221,23,.2)}.admonition.faq>.admonition-title:before,.admonition.help>.admonition-title:before,.admonition.question>.admonition-title:before{color:#64dd17;content:"\E887"}.admonition.attention,.admonition.caution,.admonition.warning{border-left-color:rgba(255,145,0,.8)}.admonition.attention>.admonition-title,.admonition.caution>.admonition-title,.admonition.warning>.admonition-title{background-color:rgba(255,145,0,.1);border-bottom-color:rgba(255,145,0,.2)}.admonition.attention>.admonition-title:before{color:#ff9100;content:"\E417"}.admonition.caution>.admonition-title:before,.admonition.warning>.admonition-title:before{color:#ff9100;content:"\E002"}.admonition.fail,.admonition.failure,.admonition.missing{border-left-color:rgba(255,82,82,.8)}.admonition.fail>.admonition-title,.admonition.failure>.admonition-title,.admonition.missing>.admonition-title{background-color:rgba(255,82,82,.1);border-bottom-color:rgba(255,82,82,.2)}.admonition.fail>.admonition-title:before,.admonition.failure>.admonition-title:before,.admonition.missing>.admonition-title:before{color:#ff5252;content:"\E14C"}.admonition.bug,.admonition.danger,.admonition.error{border-left-color:rgba(255,23,68,.8)}.admonition.bug>.admonition-title,.admonition.danger>.admonition-title,.admonition.error>.admonition-title{background-color:rgba(255,23,68,.1);border-bottom-color:rgba(255,23,68,.2)}.admonition.danger>.admonition-title:before{color:#ff1744;content:"\E3E7"}.admonition.error>.admonition-title:before{color:#ff1744;content:"\E14C"}.admonition.bug>.admonition-title:before{color:#ff1744;content:"\E868"}.admonition.example,.admonition.snippet{border-left-color:rgba(0,184,212,.8)}.admonition.example>.admonition-title,.admonition.snippet>.admonition-title{background-color:rgba(0,184,212,.1);border-bottom-color:rgba(0,184,212,.2)}.admonition.example>.admonition-title:before,.admonition.snippet>.admonition-title:before{color:#00b8d4;content:"\E242"}.admonition.cite,.admonition.quote{border-left-color:rgba(158,158,158,.8)}.admonition.cite>.admonition-title,.admonition.quote>.admonition-title{background-color:rgba(158,158,158,.1);border-bottom-color:rgba(158,158,158,.2)}.admonition.cite>.admonition-title:before,.admonition.quote>.admonition-title:before{color:#9e9e9e;content:"\E244"}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+body {
+  counter-reset: chapter;
+}
+h2 {
+  counter-reset: sub-chapter;
+}
+h3 {
+  counter-reset: section;
+}
+h4 {
+  counter-reset: indexlist;
+}
+h1::before {
+  counter-reset: chapter;
+}
+h2::before {
+  counter-increment: chapter;
+  content: counter(chapter) ". ";
+}
+h3::before {
+  counter-increment: sub-chapter;
+  content: counter(chapter) "-" counter(sub-chapter) ". ";
+}
+h4::before {
+  counter-increment: section;
+  content: counter(chapter) "-" counter(sub-chapter) "-" counter(section) ". ";
+}
+h5::before {
+  counter-increment: indexlist;
+  content: "(" counter(indexlist) ") ";
+}
+#sidebar-toc-btn {
+  bottom: unset;
+  top: 8px;
+}
+.markdown-preview.markdown-preview h2 {
+  border-bottom: 4px solid #eaecef;
+}
+.markdown-preview.markdown-preview h3 {
+  border-bottom: 1px solid #eaecef;
+}
+td {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.md-sidebar-toc.md-sidebar-toc {
+  padding-top: 40px;
+}
+#sidebar-toc-btn {
+  bottom: unset;
+  top: -0.1em;
+}
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      <div>
+<link rel="stylesheet" href="custom.less">
+<h1 id="center人型ロボット共通インターフェイス構想p-stylefont-size-smaller--架空の人型ロボットヒューマノイドを作成する手順--pcenter"><center>人型ロボット共通インターフェイス構想<p style="font-size: smaller;">- 架空の人型ロボット(ヒューマノイド)を作成する手順 -</p></center> </h1>
+<table>
+<tbody><tr><th>Sub Title</th><td>架空の人型ロボット(ヒューマノイド)を作成する手順</td></tr>
+<tr><th>Version</th><td>0.0.1</td></tr>
+<tr><th>Document Number</th><td>[T.B.D.]</td></tr>
+<tr><th>States</th><td>Working Draft</td></tr>
+</tbody></table>
+<p><strong>謝辞とお願い</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>作成段階中の本ドキュメントでは、"共通のイメージを持てるよう"/"ドキュメント作成者の整理のため"に<strong>版権があるイメージを使用している場合があり念のため著作権表示を行います</strong>。<br>
+これは一時的な対応であり、画像が出来しだい差し替えを致します。<br>
+差し替えが完了が終わるまで<strong>公開しないようにお願いいたします</strong>。</p>
+</div>
+<div style="page-break-before:always"></div>
+<p><strong>Revision History</strong></p>
+<p></p><table>
+<thead>
+<tr>
+<th>Date<br>(YYYY/MM/DD)</th>
+<th>Version</th>
+<th>Author/Review</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024/03/07</td>
+<td>0.0.1</td>
+<td>Khuko</td>
+<td>ドラフト文章の作成</td>
+</tr>
+<tr>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<div style="page-break-before:always"></div>
+<p><strong>Table of Contents</strong></p>
+
+<div class="md-toc">
+<details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#introduction" class="md-toc-link"><p>Introduction</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#background" class="md-toc-link">
+            <p>Background</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#document-scope" class="md-toc-link">
+            <p>Document Scope</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#intended-audience" class="md-toc-link">
+            <p>Intended Audience</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#general-statements" class="md-toc-link"><p>General Statements</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#documents-policy" class="md-toc-link">
+            <p>Documents Policy</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#abbreviations" class="md-toc-link">
+            <p>Abbreviations</p>
+
+          </a></div><details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#solution-levels" class="md-toc-link"><p>Solution Levels</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level1" class="md-toc-link">
+            <p>Level.1</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level2" class="md-toc-link">
+            <p>Level.2</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level3" class="md-toc-link">
+            <p>Level.3</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level4" class="md-toc-link">
+            <p>Level.4</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level5" class="md-toc-link">
+            <p>Level.5</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level6" class="md-toc-link">
+            <p>Level.6</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#critical-success-factors" class="md-toc-link"><p>Critical Success Factors</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#サイズ別" class="md-toc-link"><p>サイズ別</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#小型1m以下" class="md-toc-link">
+            <p>小型（1m以下）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#人並み1m以上から2m程度-max3m" class="md-toc-link">
+            <p>人並み（1m以上から2m程度 (MAX:3m)）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#搭乗型1m以上-" class="md-toc-link">
+            <p>搭乗型（1m以上～）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#無階級サイズ不問" class="md-toc-link">
+            <p>無階級(サイズ不問)</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#目的別" class="md-toc-link"><p>目的別</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#競技用ロボット" class="md-toc-link">
+            <p>競技用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#エンターテインメント用ロボット" class="md-toc-link">
+            <p>エンターテインメント用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#産業用ロボット" class="md-toc-link">
+            <p>産業用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#家事代行ロボット" class="md-toc-link">
+            <p>家事代行ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#介護用ロボット" class="md-toc-link">
+            <p>介護用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#災害救助ロボット" class="md-toc-link">
+            <p>災害救助ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#環境保全ロボット" class="md-toc-link">
+            <p>環境保全ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#-ロボット" class="md-toc-link">
+            <p>???? ロボット</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#overview" class="md-toc-link"><p>Overview</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#coordinate-system" class="md-toc-link">
+            <p>Coordinate System</p>
+
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#部位の名称" class="md-toc-link"><p>部位の名称</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#名称例1-例-ガンダム" class="md-toc-link">
+            <p>名称例1 (例: ガンダム)</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#specification" class="md-toc-link"><p>Specification</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#definition" class="md-toc-link"><p>Definition</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#基本姿勢" class="md-toc-link"><p>基本姿勢</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#y字ポーズ" class="md-toc-link">
+            <p>Y字ポーズ</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#t字ポーズ" class="md-toc-link">
+            <p>T字ポーズ</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#coordinate-system-1" class="md-toc-link"><p>Coordinate System</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#robot" class="md-toc-link">
+            <p>Robot</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#room" class="md-toc-link">
+            <p>Room</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#layer" class="md-toc-link"><p>Layer</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#user-layer" class="md-toc-link">
+            <p>User Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#ai-layer" class="md-toc-link">
+            <p>AI Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#application-layer" class="md-toc-link">
+            <p>Application Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#communication-layer" class="md-toc-link">
+            <p>Communication Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#physical-layer" class="md-toc-link">
+            <p>Physical Layer</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#" class="md-toc-link">
+            <p>？？？</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#hardware-requirements" class="md-toc-link">
+            <p>Hardware Requirements</p>
+
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#software-requirements" class="md-toc-link"><p>Software Requirements</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#プロトコル" class="md-toc-link">
+            <p>プロトコル</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#assembly-procedure" class="md-toc-link"><p>Assembly Procedure</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#全体像" class="md-toc-link">
+            <p>全体像</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#parts-list" class="md-toc-link">
+            <p>Parts List</p>
+
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#assemble" class="md-toc-link"><p>ASSEMBLE</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#arm-units-assemble" class="md-toc-link">
+            <p>ARM UNITS ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#body-assemble" class="md-toc-link">
+            <p>BODY ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#head-assemble" class="md-toc-link">
+            <p>HEAD ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#leg-units-assemble" class="md-toc-link">
+            <p>LEG UNITS ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#waist-assemble" class="md-toc-link">
+            <p>WAIST ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#option-parts-assemble" class="md-toc-link">
+            <p>OPTION PARTS ASSEMBLE</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#non-functional-requirements" class="md-toc-link">
+            <p>Non-Functional Requirements</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#reference" class="md-toc-link">
+            <p>Reference</p>
+
+          </a></div><details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#appendix" class="md-toc-link"><p>Appendix</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#課題" class="md-toc-link">
+            <p>課題</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#職業一覧" class="md-toc-link">
+            <p>職業一覧</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+</div>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="introduction">Introduction </h2>
+<p>このドキュメントは、人型ロボット共通インターフェイスを構想するための前段階として、架空の人型ロボット(ヒューマノイド)を作成する手順を示し必要な要件を見つけるとことを目的としています。</p>
+<h3 id="background">Background </h3>
+<p>人型ロボットの開発をしたいと志した際に最初の動く段階までは知識と根気が必要であり、そこまでたどり着けることは非常に困難と考えている。<br>
+実装しないといけない分野と範囲もさまざまであり、腕だけや二足歩行などの足、外装、認識機能など個人によって着手する個所は十人十色である。<br>
+特に他のシステムとの連携を考慮されないため開発者本人しか使用できずに継続性がなく埋もれてしまっている。</p>
+<p>パーツを組み合わせてオリジナル機体が作れるゲーム「アーマードコア」シリーズのように<br>
+人型ロボットもユニットごと接続方法（フレームごとの固定／通信規約）等を定義し、<br>
+開発する範囲を絞りそれぞれのパーツを持ち寄ることで人型ロボットの作成を容易にできるのではないかと考えてこの構想を考えている。</p>
+<p>またユニットごとで専門で開発している人たちの知見を共有しあい人型ロボットの開発の発展を希望している。</p>
+<h3 id="document-scope">Document Scope </h3>
+<p>本ドキュメントは、下記の事を明確にすることを目的としています。</p>
+<ul>
+<li>
+<p>座標系の統一</p>
+</li>
+<li>
+<p>基本姿勢の定義</p>
+</li>
+<li>
+<p>ボーンや関節名称の定義</p>
+</li>
+<li>
+<p>各制御モジュール間でデータを疎結合できるようなルール</p>
+</li>
+<li>
+<p>モーション再生や制御のための中間ファイル規格</p>
+</li>
+<li>
+<p>ハードウェア上の中間的なマウント規格</p>
+</li>
+<li>
+<p>IKベース/ジョイント角度ベースの両方対応したデータ規格</p>
+</li>
+<li>
+<p>現在利用可能なシステムのリストアップ</p>
+</li>
+</ul>
+<h3 id="intended-audience">Intended Audience </h3>
+<ul>
+<li>人型ロボットの開発をしたいと志し、本構想に賛同してもらえる方</li>
+</ul>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>こういう図を作りたい<br>
+<img src="..\assets\HumaroidCommonInterface\elimination_AI_MAP_roll.png" alt="elimination_AI_MAP_roll.png" title="[TODO]画像差し替え/ 全体像" width="50%"><br>
+<copyright></copyright></p>
+</div>
+<p>人工知能学会<br>
+<a href="https://www.ai-gakkai.or.jp/pdf/aimap/AIMap_JP_20230510.pdf">link</a></p>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="general-statements">General Statements </h2>
+<h3 id="documents-policy">Documents Policy </h3>
+<p>本ドキュメントは、以下の方針に基づいて作成されています。</p>
+<ul>
+<li>メカニズムの提案であり、現行から移行を求めるものはありません。</li>
+<li>まずは例から!
+<ul>
+<li>最も効率のよい技法/手法は定まっていません。現在利用可能なものを使い、問題を解決することを焦点を当てます。</li>
+</ul>
+</li>
+<li>議題が紛糾する場合は、両方採用する対応を致します。
+<ul>
+<li>例：ボーン名称など一つに絞るのではなくA案命名/B案命名という感じでまとめます。</li>
+</ul>
+</li>
+<li>「人が違和感のない」/「不快感に思わない」などで表現される客観性にかけるものは、明確な基準を設けて表現します。</li>
+</ul>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="abbreviations">Abbreviations </h2>
+<p>人型ロボットに関連し使用する用語を以下に示す。</p>
+<table>
+<thead>
+<tr>
+<th colspan="2">Acronym</th>
+
+<th>Full term(s)</th>
+<th>Definition</th>
+<th>Other word(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">IK</td>
+
+<td>Inverse Kinematics</td>
+<td>末端の位置から 関節の姿勢を 逆算すること。</td>
+<td>逆運動学</td>
+</tr>
+<tr>
+<td colspan="2">FK</td>
+
+<td>Forward Kinematics</td>
+<td>特定の原点より ベクトルを加算して 末端の位置を決めること。</td>
+<td>順運動学</td>
+</tr>
+<tr>
+<td colspan="2">回転軸</td>
+
+<td>axis of revolution</td>
+<td colspan="2">--</td>
+
+</tr>
+<tr>
+<td></td>
+<td>ロール</td>
+<td>Roll</td>
+<td colspan="2">[T.B.D.]</td>
+
+</tr>
+<tr>
+<td></td>
+<td>ピッチ</td>
+<td>Pitch</td>
+<td colspan="2">[T.B.D.]</td>
+
+</tr>
+<tr>
+<td></td>
+<td>ヨー</td>
+<td>Yaw</td>
+<td colspan="2">[T.B.D.]</td>
+
+</tr>
+<tr>
+<td colspan="2">SLAM</td>
+
+<td>Simultaneous Localization and Mapping</td>
+<td colspan="2">位置特定と地図作成を同時に行う技術</td>
+
+</tr>
+<tr>
+<td colspan="5"></td>
+
+
+
+
+</tr>
+</tbody>
+</table>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>[T.B.D.]人型ロボットおよび本ドキュメントで出てくる用語を整理する。</p>
+<ol>
+<li>asratec / ロボット関連用語集
+<ul>
+<li><a href="https://www.asratec.co.jp/report/robot-glossary/">https://www.asratec.co.jp/report/robot-glossary/</a></li>
+</ul>
+</li>
+<li>Shibaura Machine / 産業用ロボット 用語
+<ul>
+<li><a href="https://www.shibaura-machine.co.jp/jp/product/robot/glossary/">https://www.shibaura-machine.co.jp/jp/product/robot/glossary/</a></li>
+</ul>
+</li>
+</ol>
+</div>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="solution-levels">Solution Levels </h2>
+<p>完成品はなく「設計／試作」を行うことが前提のため、完成までの複数のステップを「Level」として分類する。<br>
+プロジェクトが進むにつれて、どの段階まで進んだかを示す指標をして利用することを目的としています。</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>本ドキュメントは、Lv.2までを目標とします</strong></p>
+</div>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>[T.B.D.] 各レベルを再定義する</p>
+</div>
+<h3 id="level1">Level.1 </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 腕/顔/脚などの部位のみ動作するロボットを作成した
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 部位を動かすハードウェアが完成した</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 制御プログラムを作成した</li>
+</ul>
+</li>
+</ul>
+<h3 id="level2">Level.2 </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Level.1で作成した部位をつなげて人型ロボットが作成できた</li>
+</ul>
+<h3 id="level3">Level.3 </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 法規上の問題をクリアした状態の人型ロボットが出来た。
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 技適マークを取得した</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 防水保護規格(IP規格)の特定等級をクリアした</li>
+</ul>
+</li>
+</ul>
+<h3 id="level4">Level.4 </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 人の介在または補助をすることで、タスクを実行できるようになった</li>
+</ul>
+<h3 id="level5">Level.5 </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 定型業務のタスクを自動で生成し、人を補助をすることができた</li>
+</ul>
+<h3 id="level6">Level.6 </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 包括的な指示をもとに、タスクを自動で生成し作業を完了することができた</li>
+</ul>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="critical-success-factors">Critical Success Factors </h2>
+<p>人型ロボットとして求めらる分野が違います。何をもって成功とするかを示す指標が必要です。</p>
+<div class="admonition todo">
+<p class="admonition-title">例文</p>
+<p>[T.B.D.]人型ロボットを設計を確実に成功させるためには、次の要素が必要と考えらえます。</p>
+<p><img src="..\assets\HumaroidCommonInterface\elimination_AIMap_JP_20230510_p17.png" alt="image" title="人工知能学会 AIマップ"><br>
+<copyright>人工知能学会 / AIマップ</copyright><br>
+<a href="https://www.ai-gakkai.or.jp/pdf/aimap/AIMap_JP_20230510.pdf">link</a></p>
+<p>内閣府が進める<a href="https://www8.cao.go.jp/cstp/moonshot/sub3.html">ムーンショット目標３</a> が考えるVisionが達成できるよ要素を取捨選択する必要があります。</p>
+<ul>
+<li>Area
+<ul>
+<li>「急進的イノベーションで少子高齢化時代を切り拓く」</li>
+<li>「サイエンスとテクノロジーでフロンティアを開拓する」</li>
+</ul>
+</li>
+<li>Vision
+<ul>
+<li>「完全無人化による産業革新」</li>
+<li>「サイエンスの自動化（AI）」</li>
+<li>「宇宙への定常的進出（宇宙）」</li>
+</ul>
+</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h3 id="サイズ別">サイズ別 </h3>
+<h4 id="小型1m以下">小型（1m以下） </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>パートナーとか競技のために用いる</li>
+<li>人と同じ環境で同じことを実施することを<strong>目的としてない</strong>ロボットサイズ</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="人並み1m以上から2m程度-max3m">人並み（1m以上から2m程度 (MAX:3m)） </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>人と同じ環境で同じことを実施することを<strong>目的とした</strong>ロボットサイズ</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="搭乗型1m以上-">搭乗型（1m以上～） </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>ロボットに搭乗し操作することを目的としたロボットサイズ</li>
+<li>グレンラガンのラガン（カマに乗って操作する）が1.5mぐらいらしい。</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="無階級サイズ不問">無階級(サイズ不問) </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>自律型だとサイズが問題にならないので不問したロボットサイズ</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h3 id="目的別">目的別 </h3>
+<h4 id="競技用ロボット">競技用ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>F1などと同じように、競技中に部品交換ありで性能の限界を求めるのか</li>
+<li>何度も使えるように耐久性を求めるのか</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="エンターテインメント用ロボット">エンターテインメント用ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>何を実施できるか</li>
+<li>どれくらいで原価回収できるかの見積もり</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="産業用ロボット">産業用ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>何を実施できるか</li>
+<li>どれくらいで原価回収できるかの見積もり</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="家事代行ロボット">家事代行ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>何を実施できるか</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="介護用ロボット">介護用ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>何を実施できるか</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="災害救助ロボット">災害救助ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>何を実施できるか</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="環境保全ロボット">環境保全ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">例</p>
+<ul>
+<li>何を実施できるか
+<ul>
+<li>例：人の指示がない状態（月など指示をしても即応できない状態）での活動を想定し、人が快適に暮らせる状態を構築できること</li>
+</ul>
+</li>
+</ul>
+</div>
+<div style="page-break-before:always"></div>
+<h4 id="-ロボット">???? ロボット </h4>
+<div class="admonition todo">
+<p class="admonition-title">疑問</p>
+<p>ファイバリオンは勇者ロボっとですが、どのカテゴリに入りますか？</p>
+</div>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>Appendixに職業一覧を記載しています。そこから何かアイディアがでるかも？</p>
+</div>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="overview">Overview </h2>
+<p>次章以降にて説明する事柄について、概略を記載します。</p>
+<h3 id="coordinate-system">Coordinate System </h3>
+<p>X, Y, Z (or ロール, ピッチ, ヨー) 軸および回転軸は、<br>
+前方をX軸、左をY軸、上をZ軸として定義した右手系とします。</p>
+<p><img src="..\assets\HumaroidCommonInterface\CoordinateSystem.png" alt="CoordinateSystem.png" title="CoordinateSystem" width="30%"></p>
+<h3 id="部位の名称">部位の名称 </h3>
+<p>部位の名称は下記を参照のこと</p>
+<h4 id="名称例1-例-ガンダム">名称例1 (例: ガンダム) </h4>
+<div>
+<p><img src="..\assets\HumaroidCommonInterface\elimination_SC_Gundam_Aerial_Instruction_Manual_015.png" alt="elimination_SC_Gundam_Aerial_Instruction_Manual_015.png" title="[TODO]画像差し替え/ 全体像"><br>
+<copyright>(c) 創通・サンライズ・MBS</copyright><br>
+<a href="https://manual.bandai-hobby.net/menus/detail/1093">link</a></p>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>画像差し替え</p>
+</div>
+</div>
+<p>[T.B.D.]</p>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="specification">Specification </h2>
+<p></p><h3 id="definition">Definition </h3>
+<h4 id="基本姿勢">基本姿勢 </h4>
+<p>人型ロボットの基本姿勢を定義する。</p>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<ul>
+<li>筐体の問題で、手を真下に下した状態が取れないロボットがいる。</li>
+<li>人体として「お腹の中の赤ちゃん」と同様の丸まった姿勢が一番楽な姿勢という意見があるが、それを基本姿勢にしてよいものか？</li>
+</ul>
+</div>
+<h5 id="y字ポーズ">Y字ポーズ </h5>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>画像差し込み</p>
+</div>
+<h5 id="t字ポーズ">T字ポーズ </h5>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>画像差し込み</p>
+</div>
+<h4 id="coordinate-system-1">Coordinate System </h4>
+<h5 id="robot">Robot </h5>
+<p>異なるブランドの robots 間で座標系にばらつきがあることを認識することが不可欠です。</p>
+<p>ロボットの座標系は、ロボットが動作する空間内の位置を定義してナビゲートするために使用される方法です。通常、X、Y、Z （またはロール、ピッチ、ヨー）の 3 つの軸と回転軸で構成され、それぞれ水平、垂直、奥行きの寸法を表します。ロボットの中心または指定された基準点を原点に交差します。</p>
+<p><img src="..\assets\HumaroidCommonInterface\CoordinateSystem.png" alt="CoordinateSystem.png" title="CoordinateSystem" width="50%"></p>
+<div>
+<p><img src="..\assets\HumaroidCommonInterface\elimination_picture_pc_f138e4902aa7db782e6629f68b9fbf2f.png" alt="elimination_picture_pc_f138e4902aa7db782e6629f68b9fbf2f.png" title="[TODO]画像差し替え/ パーツリスト"></p>
+<p><img src="..\assets\HumaroidCommonInterface\elimination_GH-UXTmakAAawXH.jpg" alt="elimination_GH-UXTmakAAawXH.jpg" title="[TODO]画像差し替え/ パーツリスト"><br>
+<a href="https://www.linkedin.com/posts/vanessaloiola_wednesdayinfo-robot-robot-activity-7171038547213279233-quC2">link</a></p>
+</div>
+<h5 id="room">Room </h5>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>SLAMなどを使う場合の部屋の原点はどうするか？</p>
+<ul>
+<li>部屋に段差がある家（ライブハウスなど）の場合、どうするか？</li>
+<li>未知の部屋に入ることを考えると、外へ出れる個所を「原点」になるのか？</li>
+<li>扉の種類によって、どこを原点にするか</li>
+</ul>
+<p><img src="..\assets\HumaroidCommonInterface\room_starting_point.png" alt="room_starting_point.png" title="[TODO]画像差し替え/ パーツリスト"></p>
+<ul>
+<li>懸念
+<ul>
+<li>部屋の角を原点とした場合、真四角でない部屋の場合にどこを原点にするかでもめる</li>
+<li>部屋の中にある部屋（配信者の防音室など）があり、繋がっている場合はどうするか</li>
+<li>ドアの「ノブがある方／中心」など定義した場合、種類によってどこを原点にするか</li>
+<li>階段の部屋の場合はドアでよいか？ 階段下にするか？</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>[T.B.D.]</p>
+<h4 id="layer">Layer </h4>
+<p>開発対象を明確にするためにレイヤーを定義します。</p>
+<p></p><p width="100%" class="puml"><!--?xml version="1.0" encoding="us-ascii" standalone="no"?--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentstyletype="text/css" height="2024.0891px" preserveAspectRatio="none" style="width:800px;height:2024px;background:#FFFFFF;" version="1.1" viewBox="0 0 800 2024" width="800.9844px" zoomAndPan="magnify"><defs></defs><g><!--cluster Robot--><g id="cluster_Robot"><rect fill="none" height="1718.3129" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:1.491591056750398;" width="596.6364" x="195.9056" y="296.8266"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" font-weight="bold" lengthAdjust="spacing" textLength="5.9664" x="491.2407" y="321.4874">&nbsp;</text></g><!--cluster Lv5--><g id="cluster_Lv5"><path d="M270.2571,391.1704 C277.4167,372.2959 288.1772,371.6525 301.495,385.2456 C310.3894,368.8573 325.9376,370.3323 334.2793,385.8142 C344.2226,369.9985 356.0552,373.4048 364.9012,386.9584 C371.7359,368.7738 385.099,368.5823 396.5518,382.3896 C407.8175,365.9538 419.4043,365.3508 431.6414,381.3385 C440.4091,367.4824 454.9574,364.484 463.8258,381.2327 C472.3818,363.9671 484.3598,362.6025 498.1429,375.2326 C509.9022,360.9869 524.3303,366.7177 530.6082,381.3871 C539.4791,365.684 552.6422,366.0821 560.4562,382.373 C571.7224,363.2352 587.9747,365.1932 597.4889,384.0792 C605.6253,369.1984 619.2683,370.0426 627.8739,383.5774 C637.7242,369.157 650.5297,369.9202 657.8059,386.0957 C668.1995,369.0544 684.7847,365.9056 695.8538,385.3921 C712.7218,372.0391 726.7327,375.2043 732.8784,396.7632 C736.0458,398.1845 735.7364,401.0663 733.2963,402.8713 C759.1084,408.4088 761.3513,421.7159 747.1755,441.5882 C767.8368,447.1453 769.4985,466.3932 755.6795,479.6534 C773.475,494.9134 771.5208,513.4125 747.4142,520.1123 C760.8872,542.5233 747.1886,563.2532 722.4373,563.8214 C724.9014,561.6285 727.6771,562.4911 728.5629,565.6335 C717.5596,584.7426 703.8738,583.0516 691.5329,567.044 C683.619,581.7831 674.5948,586.8277 660.8628,573.3732 C653.1028,587.4485 639.9191,588.5906 629.4288,576.6754 C619.5872,593.8378 609.1086,593.8645 596.8817,579.1077 C587.1355,594.8331 571.4417,595.4429 560.8209,580.1237 C553.8052,595.5776 543.6837,594.7668 532.6999,584.4544 C521.6226,601.8772 509.3868,596.9134 499.5794,583.1077 C485.1114,601.5805 473.8223,600.6206 463.2802,579.5077 C453.225,592.1618 441.8725,594.5065 433.6157,577.6971 C421.6989,593.7589 410.7288,596.0823 398.5322,577.9845 C385.2945,590.8513 376.7567,586.1525 368.8777,572.0846 C358.652,588.3512 344.4938,585.451 337.2467,569.1883 C326.6267,584.8259 310.8644,584.7488 301.1592,568.1639 C280.6611,586.7367 261.3131,580.3067 255.5693,553.3803 C259.0092,552.891 260.1269,555.6374 258.9294,558.3094 C238.9195,544.042 240.6912,529.6745 260.3632,516.7771 C241.8451,504.6797 241.6837,491.7667 257.9254,477.5112 C242.2357,466.9027 238.7331,452.4114 258.1398,442.0148 C232.2143,421.0764 240.3456,399.9696 266.0104,386.3221 C269.7121,385.7792 270.9043,387.9042 270.2571,391.1704 " fill="none" style="stroke:#181818;stroke-width:1.491591056750398;"></path><text fill="#000000" font-family="sans-serif" font-size="20.8823" font-weight="bold" lengthAdjust="spacing" textLength="82.0375" x="453.2051" y="415.4576">AI Layer</text></g><!--cluster Lv4--><g id="cluster_Lv4"><rect fill="none" height="137.2264" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:1.491591056750398;" width="381.8473" x="243.6365" y="635.4178"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" font-weight="bold" lengthAdjust="spacing" textLength="178.9909" x="345.0647" y="660.0786">Application Layer</text></g><!--cluster Lv3--><g id="cluster_Lv3"><rect fill="none" height="226.7218" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:1.491591056750398;" width="275.9443" x="243.6365" y="832.3078"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" font-weight="bold" lengthAdjust="spacing" textLength="223.7387" x="269.7394" y="856.9686">Communication Layer</text></g><!--cluster Lv1--><g id="cluster_Lv1"><rect fill="none" height="848.7153" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:1.491591056750398;" width="274.4528" x="243.6365" y="1118.6933"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" font-weight="bold" lengthAdjust="spacing" textLength="147.6675" x="307.0292" y="1143.3541">Physical Layer</text></g><!--entity ????--><g id="elem_音声認識"><rect fill="#F1F1F1" height="35.2155" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="113.3609" x="595.652" y="472.0886"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="83.5291" x="610.5679" y="498.2409">音声認識</text></g><!--entity ????--><g id="elem_画像認識"><rect fill="#F1F1F1" height="99.6802" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="235.6714" x="307.775" y="440.0194"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="83.5291" x="322.6909" y="466.1717">画像認識</text><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="309.2665" x2="541.9547" y1="470.7601" y2="470.7601"></line><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="309.2665" x2="541.9547" y1="473.7433" y2="473.7433"></line><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="80.5459" x="322.6909" y="498.4041">+ 顔認識</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="205.8396" x="322.6909" y="524.6701">+ 自分認識／物体認識</text></g><!--entity Navigation--><g id="elem_Navigation"><rect fill="#F1F1F1" height="35.2155" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="128.2768" x="461.4088" y="701.0478"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="98.445" x="476.3247" y="727.2002">Navigation</text></g><!--entity Service--><g id="elem_Service"><rect fill="#F1F1F1" height="35.2155" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="99.9366" x="308.5207" y="701.0478"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="70.1048" x="323.4367" y="727.2002">Service</text></g><!--entity ???????--><g id="elem_通信プロトコル"><rect fill="#F1F1F1" height="125.9462" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="176.0077" x="307.775" y="897.9378"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="146.1759" x="322.6909" y="924.0902">通信プロトコル</text><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="309.2665" x2="482.2911" y1="928.6786" y2="928.6786"></line><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="309.2665" x2="482.2911" y1="931.6618" y2="931.6618"></line><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="111.8693" x="322.6909" y="956.3225">+ ROS/DDS</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="92.4786" x="322.6909" y="982.5885">+ Modbus</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="64.1384" x="322.6909" y="1008.8545">+ e.t.c.</text></g><!--entity Lv1_Control--><g id="elem_Lv1_Control"><rect fill="#F1F1F1" height="99.6802" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="164.075" x="307.775" y="1184.3233"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="92.4786" x="322.6909" y="1210.4757">Controller</text><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="309.2665" x2="470.3584" y1="1215.0641" y2="1215.0641"></line><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="309.2665" x2="470.3584" y1="1218.0472" y2="1218.0472"></line><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="134.2432" x="322.6909" y="1242.708">+ Motor Driver</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="59.6636" x="322.6909" y="1268.974">+ ECU</text></g><!--entity Lv1_Connector--><g id="elem_Lv1_Connector"><rect fill="#F1F1F1" height="178.4782" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="141.7012" x="317.4703" y="1373.7554"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="98.445" x="332.3862" y="1399.9077">Connector</text><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="318.9619" x2="457.6799" y1="1404.4961" y2="1404.4961"></line><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="318.9619" x2="457.6799" y1="1407.4793" y2="1407.4793"></line><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="73.088" x="332.3862" y="1432.1401">+ UART</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="49.2225" x="332.3862" y="1458.4061">+ I2C</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="111.8693" x="332.3862" y="1484.6721">+ SPI(1/2/4)</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="59.6636" x="332.3862" y="1510.938">+ CAN</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="110.3777" x="332.3862" y="1537.204">+ EtherCAT</text></g><!--entity Lv1_Driven--><g id="elem_Lv1_Driven"><rect fill="#F1F1F1" height="99.6802" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="165.5666" x="305.5376" y="1642.2418"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="135.7348" x="320.4535" y="1668.3941">Control Driven</text><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="307.0292" x2="469.6126" y1="1672.9825" y2="1672.9825"></line><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="307.0292" x2="469.6126" y1="1675.9657" y2="1675.9657"></line><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="85.0207" x="320.4535" y="1700.6265">+ Sensor</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="96.9534" x="320.4535" y="1726.8925">+ Actuator</text></g><!--entity Lv1_Physique--><g id="elem_Lv1_Physique"><rect fill="#F1F1F1" height="99.6802" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="190.9237" x="291.3674" y="1831.6738"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="161.0918" x="306.2834" y="1857.8262">Control Physique</text><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="292.859" x2="480.7995" y1="1862.4146" y2="1862.4146"></line><line style="stroke:#181818;stroke-width:1.491591056750398;" x1="292.859" x2="480.7995" y1="1865.3978" y2="1865.3978"></line><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="79.0543" x="306.2834" y="1890.0585">+ Frame</text><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="59.6636" x="306.2834" y="1916.3245">+ 外装</text></g><!--entity Ac--><g id="elem_Ac"><ellipse cx="321.1993" cy="169.2956" fill="#F1F1F1" rx="11.9327" ry="11.9327" style="stroke:#181818;stroke-width:0.745795528375199;"></ellipse><path d="M321.1993,181.2283 L321.1993,221.5013 M301.8086,193.161 L340.59,193.161 M321.1993,221.5013 L301.8086,243.8751 M321.1993,221.5013 L340.59,243.8751 " fill="none" style="stroke:#181818;stroke-width:0.745795528375199;"></path><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="102.9198" x="269.7394" y="267.7901">User Layer</text></g><!--entity CloudLayer--><g id="elem_CloudLayer"><path d="M25.7346,467.4531 C29.3054,460.1431 35.663,457.9939 41.1861,465.4038 C47.0168,458.0369 52.179,456.5384 58.1123,465.2961 C63.3218,455.3919 69.1038,453.8029 76.8307,462.8035 C81.5466,452.9535 87.0932,454.1001 94.1304,460.3017 C98.8094,453.7539 105.9201,453.4341 108.9133,461.9556 C115.5143,454.3944 124.0377,452.8873 128.6882,464.019 C134.6831,457.4142 141.7995,457.7904 145.6192,466.4342 C150.1459,460.0754 157.0619,459.9077 160.3176,467.7497 C171.798,473.1666 173.1458,482.2255 163.4568,490.5563 C171.4262,498.9112 171.6904,508.7015 159.3818,513.4463 C155.9241,522.9603 150.2203,523.3386 143.1201,517.2405 C138.9825,525.6923 132.8269,526.4744 125.9589,520.4851 C122.2904,528.1843 116.0689,527.875 111.3847,521.5399 C106.9963,530.7145 101.6241,531.9746 93.7869,525.3915 C87.0666,533.3965 81.3207,532.7605 76.2695,523.6802 C70.4327,531.5835 63.0552,528.7995 60.066,520.7821 C53.8762,528.0154 45.3597,527.6801 41.4321,518.2522 C34.3661,525.4611 29.7437,523.532 26.0697,514.9519 C13.4549,511.8993 9.8505,501.7113 20.4123,492.7524 C8.9495,481.5634 10.9125,473.1124 25.7346,467.4531 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.745795528375199;"></path><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="114.8525" x="34.068" y="498.2409">Cloud Layer</text></g><!--entity Simulator--><g id="elem_Simulator"><rect fill="#F1F1F1" height="56.0978" rx="3.729" ry="3.729" style="stroke:#181818;stroke-width:0.745795528375199;" width="117.8357" x="196.6514" y="10.4411"></rect><text fill="#000000" font-family="sans-serif" font-size="20.8823" lengthAdjust="spacing" textLength="88.0039" x="211.5673" y="47.0346">Simulator</text></g><!--link Ac to Lv5--><g id="link_Ac_Lv5"><path d="M284.8346,281.5131 C283.2088,285.3912 285.1773,281.0307 283.9095,284.8939 C276.8766,306.2497 271.589,329.4253 267.6134,352.2315 C266.6195,357.9331 265.7076,363.6115 264.871,369.2327 C264.6618,370.638 265.7243,363.1803 265.5244,364.5779 " fill="none" id="Ac-Lv5" style="stroke:#181818;stroke-width:1.491591056750398;"></path><polygon fill="#181818" points="288.2948,273.2595,277.6021,283.3331,285.4113,280.1375,288.6069,287.9466,288.2948,273.2595" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon><polygon fill="#181818" points="264.2575,373.4373,272.0642,360.9928,265.3133,366.0545,260.2516,359.3036,264.2575,373.4373" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon></g><!--link Simulator to Ac--><g id="link_Simulator_Ac"><path d="M269.0026,75.6695 C278.0118,99.4454 285.0775,118.0589 296.4435,148.0399 " fill="none" id="Simulator-Ac" style="stroke:#181818;stroke-width:1.491591056750398;"></path><polygon fill="#181818" points="265.8314,67.3006,265.0089,81.968,268.474,74.2747,276.1674,77.7398,265.8314,67.3006" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon><polygon fill="#181818" points="299.6159,156.4082,300.4361,141.7407,296.9722,149.4346,289.2783,145.9707,299.6159,156.4082" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon></g><!--link Simulator to Lv5--><g id="link_Simulator_Lv5"><path d="M250.8863,76.3609 C247.9628,99.8982 245.2027,125.9947 243.6365,156.6171 C241.7795,192.8926 241.5595,231.4129 242.2832,268.8763 C242.645,287.608 243.2427,306.0755 243.9897,323.866 C244.3632,332.7612 244.774,341.4873 245.2113,349.9925 C245.4299,354.2451 245.6552,358.4424 245.8857,362.5782 C246.001,364.646 246.1176,366.6985 246.2353,368.7347 C246.2942,369.7528 246.3533,370.7669 246.4127,371.7768 C246.4424,372.2818 245.9421,363.8518 245.9719,364.3547 " fill="none" id="Simulator-Lv5" style="stroke:#181818;stroke-width:1.491591056750398;"></path><polygon fill="#181818" points="251.9894,67.4796,244.4139,80.0661,251.0702,74.8807,256.2556,81.5369,251.9894,67.4796" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon><polygon fill="#181818" points="246.502,373.2885,251.6628,359.5344,246.0603,365.8437,239.751,360.2412,246.502,373.2885" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon></g><!--link CloudLayer to Lv5--><g id="link_CloudLayer_Lv5"><path d="M180.5572,489.9877 C194.4439,489.9877 199.3773,489.9877 213.2603,489.9877 C220.2018,489.9877 227.1433,489.9877 234.0852,489.9877 C235.8207,489.9877 237.5562,489.9877 239.2918,489.9877 C240.1596,489.9877 241.0274,489.9877 241.8951,489.9877 C242.329,489.9877 242.7629,489.9877 243.1969,489.9877 C243.3053,489.9877 234.4643,489.9877 234.5727,489.9877 " fill="none" id="CloudLayer-Lv5" style="stroke:#181818;stroke-width:1.491591056750398;"></path><polygon fill="#181818" points="171.6076,489.9877,185.0319,495.954,179.0656,489.9877,185.0319,484.0213,171.6076,489.9877" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon><polygon fill="#181818" points="243.5223,489.9877,230.098,484.0213,236.0643,489.9877,230.098,495.954,243.5223,489.9877" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon></g><!--link CloudLayer to Lv4--><g id="link_CloudLayer_Lv4"><path d="M121.6767,533.0429 C144.2669,564.1575 173.0694,603.8296 201.8366,643.4537 C216.2202,663.2658 229.2804,681.2553 238.9219,694.5361 C240.1271,696.1962 241.2789,697.7827 242.3732,699.29 C242.6467,699.6668 242.9167,700.0387 243.183,700.4055 C243.3162,700.589 238.1907,693.5288 238.322,693.7097 " fill="none" id="CloudLayer-Lv4" style="stroke:#181818;stroke-width:1.491591056750398;"></path><polygon fill="#181818" points="116.4187,525.8008,119.4776,540.1692,120.8004,531.8358,129.1338,533.1586,116.4187,525.8008" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon><polygon fill="#181818" points="243.5797,700.952,240.5214,686.5834,239.1983,694.9167,230.865,693.5936,243.5797,700.952" style="stroke:#181818;stroke-width:1.491591056750398;"></polygon></g><!--link Lv5 to Lv4--><g id="link_Lv5_Lv4"><path d="M255.5693,576.5456 C255.5693,577.3773 255.5693,578.2112 255.5693,579.047 C255.5693,580.7186 255.5693,582.398 255.5693,584.0837 C255.5693,590.8264 255.5693,597.6693 255.5693,604.512 C255.5693,611.3547 255.5693,618.1971 255.5693,624.939 C255.5693,628.3099 255.5693,631.6556 255.5693,634.9637 " fill="none" id="Lv5-Lv4" style="stroke:#181818;stroke-width:1.491591056750398;"></path></g><!--link Lv4 to Lv3--><g id="link_Lv4_Lv3"><path d="M255.5693,772.9867 C255.5693,774.5137 255.5693,776.0622 255.5693,777.6306 C255.5693,783.9042 255.5693,790.4956 255.5693,797.2989 C255.5693,804.1022 255.5693,811.1173 255.5693,818.2382 C255.5693,821.7987 255.5693,825.3856 255.5693,828.9857 C255.5693,829.8857 255.5693,830.7866 255.5693,831.688 C255.5693,831.8007 255.5693,831.9134 255.5693,832.0261 C255.5693,832.0825 255.5693,832.1388 255.5693,832.1952 " fill="none" id="Lv4-Lv3" style="stroke:#181818;stroke-width:1.491591056750398;"></path></g><!--link Lv3 to Lv1--><g id="link_Lv3_Lv1"><path d="M255.5693,1059.5176 C255.5693,1060.0117 255.5693,1060.5065 255.5693,1061.002 C255.5693,1064.966 255.5693,1068.9751 255.5693,1073.0142 C255.5693,1081.0924 255.5693,1089.2905 255.5693,1097.4885 C255.5693,1101.5874 255.5693,1105.6863 255.5693,1109.7701 C255.5693,1111.812 255.5693,1113.8501 255.5693,1115.8826 C255.5693,1116.3907 255.5693,1116.8985 255.5693,1117.4059 C255.5693,1117.6596 255.5693,1117.9132 255.5693,1118.1666 " fill="none" id="Lv3-Lv1" style="stroke:#181818;stroke-width:1.491591056750398;"></path></g><!--link Lv1_Control to Lv1_Connector--><g id="link_Lv1_Control_Lv1_Connector"><path d="M389.4992,1284.2599 C389.3202,1310.3329 389.0965,1343.2822 388.9026,1373.6957 " fill="none" id="Lv1_Control-Lv1_Connector" style="stroke:#181818;stroke-width:1.491591056750398;"></path></g><!--link Lv1_Connector to Lv1_Driven--><g id="link_Lv1_Connector_Lv1_Driven"><path d="M388.3209,1552.7612 C388.3209,1582.9958 388.3209,1615.7511 388.3209,1641.7495 " fill="none" id="Lv1_Connector-Lv1_Driven" style="stroke:#181818;stroke-width:1.491591056750398;"></path></g><!--link Lv1_Driven to Lv1_Physique--><g id="link_Lv1_Driven_Lv1_Physique"><path d="M387.9331,1742.2082 C387.7093,1769.6087 387.4408,1803.7661 387.2171,1831.2413 " fill="none" id="Lv1_Driven-Lv1_Physique" style="stroke:#181818;stroke-width:1.491591056750398;"></path></g><!--SRC=[XLJFQnD15BxFN_78IGbDcZQ21nMMZKAWhINRd4gHwUwGBEpknDdPb285CQZr83sqg7YHKYzM2aAFAlunsz3qvB_Wx0ztPoURxbo6ztrlvhtllPddczWXS7zv6VPiYmyHfoFW57OfvzG5osR4v3Rr44AQoIc3Mjyd3DRmFc4rm3ve9j8T6bXGIxQSYUtOHD4bs1k8G3N3TWC7YvjYdyn2iW_4N8-A9E05GY1M6aFhIW7MnlS43UaoCRFWvilbzEp7xFpzxE8JR6TSj6Gg8tQAnwzFVaudHwN7PQf0F1Ih0DJXvlIanB4EixVdqyCt2VNtrz7rkszNluzBCpf8L4irqKOZnpPnr8j22Tfg2JRms1uaVaK5ER58la7Os3Q9SYv5ApFKgUi6NbcEgtDjUldvwizfEFaOJYx2oM7uwZASV5VxLUPJLVdUKwFPwHWAkawjtS1NGDBW3RCnhqgLjJdSzuKefw2efIeIq3ETUfnHHz6Heexu1XN9hzFeWtMOFLPyw_1OxozgMXhP8_7td8kTu5MX-rflIu6wAxg269lTEwtcIhDzLo5qRKFDbmy9qxMjsvAEXNhbrKggu5MbRH3Ffsgjn9mAiAnv1yq7ZxlwF20Bml-dgn9umh1B56pwzSFixBKQNRoiWsY6meCbY-vvIu-YyOMo-PV3Og2Me95pFb05pkp1aDzEj16AHcHoHMn7uo8pLr7qCpEpXUGtdCFvuqB5foQvfDsIkYgHMIt_0G00]--></g></svg></p><p></p>
+<h5 id="user-layer">User Layer </h5>
+<ul>
+<li>ユーザーが直接操作する部分であり、これは人とは限りません。例えば、他のロボットが操作することもあります。</li>
+</ul>
+<h5 id="ai-layer">AI Layer </h5>
+<ul>
+<li>認識や判断を行う部分です。</li>
+</ul>
+<h5 id="application-layer">Application Layer </h5>
+<ul>
+<li>システムを構成している部分です。
+<ul>
+<li>ROSでいうところの「NODE」に相当します。</li>
+</ul>
+</li>
+</ul>
+<h5 id="communication-layer">Communication Layer </h5>
+<ul>
+<li>上位レイヤーからの指示を受けて、ロボットを動かす部分です。
+<ul>
+<li>プロトコルなど規約を定義します。</li>
+<li>このレイヤーでは、上位指示どおり動くことを保証するものであり、独自の判断で数値を変えることはありません。</li>
+</ul>
+</li>
+</ul>
+<h5 id="physical-layer">Physical Layer </h5>
+<ul>
+<li>Controller
+<ul>
+<li>計算能力を有するSingle Board Computer (SBC)などに相当します。</li>
+</ul>
+</li>
+<li>Connector
+<ul>
+<li>ControllerとDrivenを接続するコネクタの規格を定義します。</li>
+</ul>
+</li>
+<li>Driven
+<ul>
+<li>駆動装置・センサーなどの実際に動く部分です。</li>
+</ul>
+</li>
+<li>Physique
+<ul>
+<li>外装やフレームなどに相当し、駆動機構を持たない部分です。
+<ul>
+<li>全体を支えるフレーム</li>
+<li>外観や駆動装置を保護ための外装</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>？？？</h4>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h3 id="hardware-requirements">Hardware Requirements </h3>
+<p>[T.B.D.]</p>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h3 id="software-requirements">Software Requirements </h3>
+<h4 id="プロトコル">プロトコル </h4>
+<p>[T.B.D.]</p>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h3 id="assembly-procedure">Assembly Procedure </h3>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>ガンプラの組立手順を参考に構成してます。</p>
+</div>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>組立手順をしめす。</p>
+</div>
+<h4 id="全体像">全体像 </h4>
+<div>
+<p><img src="..\assets\HumaroidCommonInterface\elimination_SC_Gundam_Aerial_Instruction_Manual_015.png" alt="elimination_SC_Gundam_Aerial_Instruction_Manual_015.png" title="[TODO]画像差し替え/ 全体像"><br>
+<copyright>(c) 創通・サンライズ・MBS</copyright><br>
+<a href="https://manual.bandai-hobby.net/menus/detail/1093">link</a></p>
+</div>
+<h4 id="parts-list">Parts List </h4>
+<div>
+<p><img src="..\assets\HumaroidCommonInterface\elimination_SC_Gundam_Aerial_Instruction_Manual_002.png" alt="elimination_SC_Gundam_Aerial_Instruction_Manual_002.png" title="[TODO]画像差し替え/ パーツリスト"><br>
+<copyright>(c) 創通・サンライズ・MBS</copyright><br>
+<a href="https://manual.bandai-hobby.net/menus/detail/1093">link</a></p>
+</div>
+<h4 id="assemble">ASSEMBLE </h4>
+<h5 id="arm-units-assemble">ARM UNITS ASSEMBLE </h5>
+<h5 id="body-assemble">BODY ASSEMBLE </h5>
+<h5 id="head-assemble">HEAD ASSEMBLE </h5>
+<h5 id="leg-units-assemble">LEG UNITS ASSEMBLE </h5>
+<h5 id="waist-assemble">WAIST ASSEMBLE </h5>
+<h5 id="option-parts-assemble">OPTION PARTS ASSEMBLE </h5>
+<p>[T.B.D.]</p>
+<p></p>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="non-functional-requirements">Non-Functional Requirements </h2>
+<div class="admonition todo">
+<p class="admonition-title">Todo</p>
+<p>[T.B.D.] 非機能要件の項目をリストアップしただけ。<br>
+人型ロボットとして求めらる要件を整理する。</p>
+<p>「Critical Success Factors」を参照して、非機能要件を明確にする</p>
+</div>
+<ol>
+<li>可用性
+<ol>
+<li>継続性
+<ol>
+<li>運用スケジュール</li>
+<li>業務継続性</li>
+<li>目標復旧水準
+<ol>
+<li>業務定時時</li>
+<li>大規模災害</li>
+</ol>
+</li>
+<li>稼働率</li>
+</ol>
+</li>
+<li>耐障害性</li>
+<li>回復性
+<ol>
+<li>復旧作業</li>
+<li>可用性確認</li>
+</ol>
+</li>
+<li>災害対策</li>
+</ol>
+</li>
+<li>性能・拡張性
+<ol>
+<li>業務処理量
+<ol>
+<li>通常時業務量</li>
+<li>業務量増大度</li>
+<li>保管期間</li>
+</ol>
+</li>
+<li>性能目標値
+<ol>
+<li>レスポンス</li>
+</ol>
+</li>
+<li>リソース拡張性
+<ol>
+<li>計算能力</li>
+<li>作業能力</li>
+</ol>
+</li>
+<li>品質保証
+<ol>
+<li>リソース占有の有無</li>
+<li>性能テスト</li>
+<li>スパイク負荷対応</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>運用・保守性
+<ol>
+<li>通常運用
+<ol>
+<li>運用時間</li>
+<li>バックアップ</li>
+<li>運用監視</li>
+<li>時間同期</li>
+</ol>
+</li>
+<li>保守運用
+<ol>
+<li>計画停止</li>
+<li>運用負荷削減</li>
+<li>修正ポリシー</li>
+<li>活性保守</li>
+<li>定期保守頻度</li>
+<li>予防保守レベル</li>
+</ol>
+</li>
+<li>障害時運用
+<ol>
+<li>復旧作業</li>
+<li>障害復旧の自動化範囲</li>
+<li>システム異常検知時の対応</li>
+<li>交換用部品の確保</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>移行性
+<ol>
+<li>移行時期</li>
+<li>移行方式</li>
+<li>移行対象
+<ol>
+<li>機器</li>
+<li>データ</li>
+</ol>
+</li>
+<li>移行計画
+<ol>
+<li>移行作業分担</li>
+<li>リハーサル</li>
+<li>トラブル対応</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>セキュリティ
+<ol>
+<li>前提条件・制約条件</li>
+<li>コンプライアンス</li>
+<li>セキュリティリスク
+<ol>
+<li>脅威</li>
+<li>脆弱性</li>
+<li>影響度</li>
+</ol>
+</li>
+<li>セキュリティ診断</li>
+<li>セキュリティリスク管理</li>
+<li>アクセス利用制限</li>
+<li>データの秘匿</li>
+<li>不正追跡・監視
+<ol>
+<li>不正監視</li>
+<li>データ検証</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>システム環境・エコロジー
+<ol>
+<li>前提条件・制約条件</li>
+<li>システム特性</li>
+<li>適合規格
+<ol>
+<li>製品安全規格</li>
+<li>環境保護</li>
+<li>電波干渉</li>
+</ol>
+</li>
+<li>機材設置環境条件
+<ol>
+<li>耐震／免振</li>
+<li>スペース</li>
+<li>重量</li>
+<li>電気設備適合性</li>
+<li>温度</li>
+<li>湿度</li>
+<li>空調性能</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="reference">Reference </h2>
+<ol>
+<li>Meridian計画
+<ul>
+<li><a href="https://note.com/ninagawa123/n/nb768563591be">https://note.com/ninagawa123/n/nb768563591be</a></li>
+</ul>
+</li>
+<li>asratec / ロボット関連用語集
+<ul>
+<li><a href="https://www.asratec.co.jp/report/robot-glossary/">https://www.asratec.co.jp/report/robot-glossary/</a></li>
+</ul>
+</li>
+<li>Shibaura Machine / 産業用ロボット 用語
+<ul>
+<li><a href="https://www.shibaura-machine.co.jp/jp/product/robot/glossary/">https://www.shibaura-machine.co.jp/jp/product/robot/glossary/</a></li>
+</ul>
+</li>
+<li>人工知能学会 / AIマップ
+<ul>
+<li><a href="https://www.ai-gakkai.or.jp/pdf/aimap/AIMap_JP_20230510.pdf">https://www.ai-gakkai.or.jp/pdf/aimap/AIMap_JP_20230510.pdf</a></li>
+</ul>
+</li>
+<li>IPA / システム構築の上流工程強化（非機能要求グレード）
+<ul>
+<li><a href="https://www.ipa.go.jp/archive/digital/iot-en-ci/jyouryuu/hikinou/ent03-b.html">https://www.ipa.go.jp/archive/digital/iot-en-ci/jyouryuu/hikinou/ent03-b.html</a></li>
+</ul>
+</li>
+<li>ムーンショット目標３ 2050年までに、AIとロボットの共進化により、自ら学習・行動し人と共生するロボットを実現
+<ul>
+<li><a href="https://www8.cao.go.jp/cstp/moonshot/sub3.html">https://www8.cao.go.jp/cstp/moonshot/sub3.html</a></li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>削除予定
+<ol>
+<li>ARMORED CORE™ VI FIRES OF RUBICON™
+<ul>
+<li><a href="https://www.armoredcore.net/">https://www.armoredcore.net/</a></li>
+</ul>
+</li>
+<li>BANDAI HOBBY SITE/INSTRUCTION MANUAL WEB取説
+<ul>
+<li><a href="https://manual.bandai-hobby.net/menus/detail/945">https://manual.bandai-hobby.net/menus/detail/945</a></li>
+<li><a href="https://manual.bandai-hobby.net/menus/detail/1093">https://manual.bandai-hobby.net/menus/detail/1093</a></li>
+</ul>
+</li>
+<li>Vanessa Loiola’s Post
+<ul>
+<li><a href="https://www.linkedin.com/posts/vanessaloiola_wednesdayinfo-robot-robot-activity-7171038547213279233-quC2">https://www.linkedin.com/posts/vanessaloiola_wednesdayinfo-robot-robot-activity-7171038547213279233-quC2</a></li>
+</ul>
+</li>
+<li>職業図鑑
+<ul>
+<li><a href="https://aaaaaa.co.jp/job/joblist/">https://aaaaaa.co.jp/job/joblist/</a></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p></p>
+<div style="page-break-before:always"></div>
+<p></p><h2 id="appendix">Appendix </h2>
+<h3 id="課題">課題 </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 数学的知識や回路設計などの別学問にあたるが前提として知る必要がある内容は別途資料を作成する。
+<ul>
+<li>例
+<ul>
+<li>クォータニオンとか逆運動の計算</li>
+<li>回路設計における基礎知識</li>
+<li>サーバー環境構築における基礎知識</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="職業一覧">職業一覧 </h3>
+<p><a href="https://aaaaaa.co.jp/job/joblist/">職業図鑑(web)</a>より現存する職業の列挙してます。<br>
+既存の職業からロボットの活用を考えるための参考資料として利用できるかもしれません。</p>
+<details open="">
+    <summary>エンターテイメントに関わる職業</summary>
+<ul>
+<li>パーカッショニスト</li>
+<li>サックスプレイヤー</li>
+<li>トランペッター</li>
+<li>校正者</li>
+<li>ミュージカル俳優</li>
+<li>スポーツ審判員</li>
+<li>ディスプレイデザイナー</li>
+<li>映画バイヤー</li>
+<li>舞台機構調整技能士</li>
+<li>ローディー</li>
+<li>マニピュレーター</li>
+<li>ニュースキャスター</li>
+<li>ボーカリスト</li>
+<li>小説家</li>
+<li>メイクセラピスト</li>
+<li>アシスタントテレビディレクター</li>
+<li>テレビディレクター</li>
+<li>編集者</li>
+<li>フラワーデザイナー</li>
+<li>プロ野球選手</li>
+<li>ゲームクリエイター</li>
+<li>漫画原作者</li>
+<li>ファッションデザイナー</li>
+<li>童話作家</li>
+<li>書道家</li>
+<li>ビデオ組立工</li>
+<li>絵本作家</li>
+<li>作詞家</li>
+<li>レコーディングエンジニア</li>
+<li>放送エンジニア</li>
+<li>ドラマー</li>
+<li>ゲームディレクター</li>
+<li>詩人</li>
+<li>音楽プロデューサー</li>
+<li>美術スタッフ</li>
+<li>映像編集者</li>
+<li>映像カメラマン</li>
+<li>イベントプランナー</li>
+<li>アナウンサー</li>
+<li>放送作家</li>
+<li>ベーシスト</li>
+<li>ゲームデザイナー</li>
+<li>テレビカメラマン</li>
+<li>作曲家</li>
+<li>サウンドプログラマー</li>
+<li>WEBプロデューサー</li>
+<li>広告プランナー</li>
+<li>動物園飼育スタッフ</li>
+<li>キャディ</li>
+<li>玩具店店員</li>
+<li>芸能マネージャー</li>
+<li>モデル</li>
+<li>映像プロデューサー</li>
+<li>イベント制作スタッフ</li>
+<li>プロスポーツ選手</li>
+<li>レーシングエンジニア</li>
+<li>俳優</li>
+<li>レポーター</li>
+<li>音楽評論家</li>
+<li>フラワーコーディネーター</li>
+<li>ダンサー</li>
+<li>修復家</li>
+<li>放送記者</li>
+<li>声優</li>
+<li>ゲームサウンドクリエイター</li>
+<li>タレント</li>
+<li>学芸員</li>
+<li>指揮者</li>
+<li>ブライダルプレイヤー</li>
+<li>騎手</li>
+<li>ピアニスト</li>
+<li>ナレーター</li>
+<li>スポーツカメラマン</li>
+<li>カラーコーディネーター</li>
+<li>脚本家</li>
+<li>DJ</li>
+<li>グラフィックデザイナー</li>
+<li>アプリケーションエンジニア</li>
+<li>厩務員</li>
+<li>和菓子職人</li>
+<li>中小企業診断士</li>
+<li>救急救命士</li>
+<li>ガラス工芸家</li>
+<li>スーツアクター</li>
+<li>スタントマン</li>
+<li>音楽雑誌記者</li>
+<li>イラストレーター</li>
+<li>メカトロニクス技術者</li>
+<li>ツアープランナー</li>
+<li>楽器インストラクター</li>
+<li>照明スタッフ</li>
+<li>新聞記者</li>
+<li>コンサートプロモーター</li>
+<li>ギタリスト</li>
+<li>ベルパーソン</li>
+<li>音響スタッフ</li>
+<li>ゲームプランナー</li>
+<li>調教師</li>
+<li>スポーツジャーナリスト</li>
+<li>CMプランナー</li>
+<li>演出家</li>
+<li>水族館スタッフ</li>
+<li>テーマパークスタッフ</li>
+<li>映像ディレクター</li>
+<li>漫画家</li>
+<li>イベントプロデューサー</li>
+<li>カーアドバイザー</li>
+<li>作家</li>
+<li>アニメーター</li>
+<li>気象予報士</li>
+<li>占い師</li>
+<li>映画監督</li>
+<li>コメディアン</li>
+<li>ブライダルプランナー</li>
+<li>ミュージシャン</li>
+</ul>
+</details>
+<details open="">
+    <summary>オフィスでおこなう職業</summary>
+<ul>
+<li>ショップオーナー</li>
+<li>会社経営者</li>
+<li>校正者</li>
+<li>ディスプレイデザイナー</li>
+<li>医療情報管理者</li>
+<li>編集者</li>
+<li>放送エンジニア</li>
+<li>駅構内売店販売員</li>
+<li>管理業務主任者</li>
+<li>福祉住環境コーディネーター</li>
+<li>ビル施設管理者</li>
+<li>建築構造設計技術者</li>
+<li>政治家秘書</li>
+<li>マンション管理士</li>
+<li>アナウンサー</li>
+<li>電器店員</li>
+<li>司法書士</li>
+<li>ハードウェア設計技術者</li>
+<li>セキュリティ技術者</li>
+<li>法務</li>
+<li>システムアナリスト</li>
+<li>検察官</li>
+<li>言語聴覚士</li>
+<li>秘書</li>
+<li>電子計算機オペレーター</li>
+<li>ゲームデザイナー</li>
+<li>清掃作業員</li>
+<li>通信販売受付スタッフ</li>
+<li>作曲家</li>
+<li>医療情報管理士</li>
+<li>商品開発部員</li>
+<li>サウンドプログラマー</li>
+<li>WEBプロデューサー</li>
+<li>労働基準監督官</li>
+<li>薬剤師</li>
+<li>郵便事務員</li>
+<li>英文速記者</li>
+<li>建築積算技術者</li>
+<li>広告プランナー</li>
+<li>インターネットコンサルタント</li>
+<li>ロボット設計技術者</li>
+<li>玩具店店員</li>
+<li>営業マン</li>
+<li>臨床工学技士</li>
+<li>経理・財務</li>
+<li>ネットサーファー</li>
+<li>郵政外務職員</li>
+<li>電算写植オペレーター</li>
+<li>ネットワークエンジニア</li>
+<li>カラーリスト</li>
+<li>空間デザイナー</li>
+<li>ヘルプデスク</li>
+<li>図書館司書</li>
+<li>インテリアデザイナー</li>
+<li>パッケージデザイナー</li>
+<li>通関士</li>
+<li>消費生活アドバイザー</li>
+<li>外資系スタッフ</li>
+<li>医療秘書</li>
+<li>ゲームサウンドクリエイター</li>
+<li>人事</li>
+<li>エディトリアルデザイナー</li>
+<li>WEBプログラマー</li>
+<li>アクチュアリー</li>
+<li>家庭裁判所調査官</li>
+<li>児童相談員</li>
+<li>WEBディレクター</li>
+<li>公認会計士</li>
+<li>弁理士</li>
+<li>視能訓練士</li>
+<li>ＷＥＢクリエイター</li>
+<li>海上保安官</li>
+<li>駐車場管理人</li>
+<li>カラーコーディネーター</li>
+<li>テレフォンオペレーター</li>
+<li>脚本家</li>
+<li>DJ</li>
+<li>アプリケーションエンジニア</li>
+<li>中小企業診断士</li>
+<li>法務教官</li>
+<li>救急救命士</li>
+<li>造園技術者</li>
+<li>営業事務</li>
+<li>イラストレーター</li>
+<li>マーチャンダイザー</li>
+<li>照明スタッフ</li>
+<li>プログラマー</li>
+<li>住宅・不動産会社営業部員</li>
+<li>貿易スタッフ</li>
+<li>トレーサー</li>
+<li>システムエンジニア</li>
+<li>税理士</li>
+<li>デバッガー</li>
+<li>翻訳家</li>
+<li>サーチャー</li>
+<li>マーケットリサーチャー</li>
+<li>タクシー配車オペレーター</li>
+<li>WEBコンテンツプランナー</li>
+<li>ブックデザイナー／装丁家</li>
+<li>ゲームプランナー</li>
+<li>CMプランナー</li>
+<li>研究員</li>
+<li>土地家屋調査士</li>
+<li>広報スタッフ</li>
+<li>WEBマスター</li>
+<li>行政書士</li>
+<li>CADオペレーター</li>
+<li>OA機器インストラクター</li>
+<li>地方公務員</li>
+<li>医療事務</li>
+<li>国家公務員Ⅰ種</li>
+<li>ソフトウェア開発技術者</li>
+<li>一般事務</li>
+</ul>
+</details>
+<details open="">
+    <summary>クリエイティブな職業</summary>
+<ul>
+<li>ショコラティエ</li>
+<li>パーカッショニスト</li>
+<li>サックスプレイヤー</li>
+<li>トランペッター</li>
+<li>ミュージカル俳優</li>
+<li>ディスプレイデザイナー</li>
+<li>映画バイヤー</li>
+<li>舞台機構調整技能士</li>
+<li>テーブルコーディネーター</li>
+<li>レストア技術者</li>
+<li>ローディー</li>
+<li>マニピュレーター</li>
+<li>ボーカリスト</li>
+<li>小説家</li>
+<li>メイクセラピスト</li>
+<li>アシスタントテレビディレクター</li>
+<li>テレビディレクター</li>
+<li>編集者</li>
+<li>フラワーデザイナー</li>
+<li>パン職人</li>
+<li>ゲームクリエイター</li>
+<li>漫画原作者</li>
+<li>ファッションデザイナー</li>
+<li>標題書士</li>
+<li>童話作家</li>
+<li>書道家</li>
+<li>ビデオ組立工</li>
+<li>絵本作家</li>
+<li>漆器製造工</li>
+<li>作詞家</li>
+<li>金属プレス工</li>
+<li>機械組立工</li>
+<li>内装工</li>
+<li>金型工</li>
+<li>レコーディングエンジニア</li>
+<li>放送エンジニア</li>
+<li>鉄骨工</li>
+<li>ＮＣフライス盤工</li>
+<li>タイル工・レンガ工</li>
+<li>圧延工</li>
+<li>浄化槽設備士</li>
+<li>ドラマー</li>
+<li>左官</li>
+<li>建築ブロック工</li>
+<li>建築大工</li>
+<li>彫金家</li>
+<li>管理業務主任者</li>
+<li>ゲームディレクター</li>
+<li>詩人</li>
+<li>音楽プロデューサー</li>
+<li>美術スタッフ</li>
+<li>映像編集者</li>
+<li>福祉住環境コーディネーター</li>
+<li>映像カメラマン</li>
+<li>建築構造設計技術者</li>
+<li>アナウンサー</li>
+<li>電器店員</li>
+<li>プラント設計技術者</li>
+<li>放送作家</li>
+<li>ハードウェア設計技術者</li>
+<li>土木施工管理技士</li>
+<li>ベーシスト</li>
+<li>とび工</li>
+<li>システムアナリスト</li>
+<li>秘書</li>
+<li>電子計算機オペレーター</li>
+<li>ゲームデザイナー</li>
+<li>テレビカメラマン</li>
+<li>モデラー</li>
+<li>ガラス食器製造工</li>
+<li>照明デザイナー</li>
+<li>作曲家</li>
+<li>医療情報管理士</li>
+<li>商品開発部員</li>
+<li>サウンドプログラマー</li>
+<li>WEBプロデューサー</li>
+<li>英文速記者</li>
+<li>NC旋盤工</li>
+<li>建築積算技術者</li>
+<li>自動車整備士</li>
+<li>鋳物工</li>
+<li>インターネットコンサルタント</li>
+<li>IC生産オペレーター</li>
+<li>キッチンスペシャリスト</li>
+<li>ロボット設計技術者</li>
+<li>営業マン</li>
+<li>木工工芸家</li>
+<li>芸能マネージャー</li>
+<li>造園施工管理技士</li>
+<li>臨床工学技士</li>
+<li>ホームエレクトロニクス技術者</li>
+<li>映像プロデューサー</li>
+<li>電算写植オペレーター</li>
+<li>ネットワークエンジニア</li>
+<li>カラーリスト</li>
+<li>船舶機関士</li>
+<li>溶接工</li>
+<li>空間デザイナー</li>
+<li>イベント制作スタッフ</li>
+<li>マシニングセンタ・オペレーター</li>
+<li>インテリアデザイナー</li>
+<li>パタンナー</li>
+<li>パッケージデザイナー</li>
+<li>俳優</li>
+<li>音楽評論家</li>
+<li>カスタマーエンジニア</li>
+<li>フラワーコーディネーター</li>
+<li>義肢装具士</li>
+<li>フレグランスコーディネーター</li>
+<li>ダンサー</li>
+<li>修復家</li>
+<li>放送記者</li>
+<li>フードスペシャリスト</li>
+<li>外資系スタッフ</li>
+<li>染色工</li>
+<li>声優</li>
+<li>ゲームサウンドクリエイター</li>
+<li>タレント</li>
+<li>エディトリアルデザイナー</li>
+<li>WEBプログラマー</li>
+<li>児童相談員</li>
+<li>和裁士</li>
+<li>商品バイヤー</li>
+<li>雑貨デザイナー</li>
+<li>指揮者</li>
+<li>ブライダルプレイヤー</li>
+<li>WEBディレクター</li>
+<li>ソーイングスタッフ</li>
+<li>ピアニスト</li>
+<li>カーデザイナー</li>
+<li>宇宙飛行士</li>
+<li>陶芸家</li>
+<li>ナレーター</li>
+<li>スポーツカメラマン</li>
+<li>ＷＥＢクリエイター</li>
+<li>小学校教員</li>
+<li>カラーコーディネーター</li>
+<li>テレフォンオペレーター</li>
+<li>脚本家</li>
+<li>DJ</li>
+<li>グラフィックデザイナー</li>
+<li>アプリケーションエンジニア</li>
+<li>厩務員</li>
+<li>和菓子職人</li>
+<li>中小企業診断士</li>
+<li>大学教授</li>
+<li>救急救命士</li>
+<li>航海士</li>
+<li>営業事務</li>
+<li>ガラス工芸家</li>
+<li>スーツアクター</li>
+<li>スタントマン</li>
+<li>音楽雑誌記者</li>
+<li>イラストレーター</li>
+<li>メカトロニクス技術者</li>
+<li>ビオトープ管理士</li>
+<li>ツアープランナー</li>
+<li>理学療法士</li>
+<li>自動車組立工</li>
+<li>ネイリスト</li>
+<li>マーチャンダイザー</li>
+<li>照明スタッフ</li>
+<li>新聞記者</li>
+<li>プログラマー</li>
+<li>住宅・不動産会社営業部員</li>
+<li>貿易スタッフ</li>
+<li>DTPオペレーター</li>
+<li>セールスエンジニア</li>
+<li>バイオ技術者</li>
+<li>管理美容師</li>
+<li>リフォーマー</li>
+<li>トレーサー</li>
+<li>ルポライター</li>
+<li>システムエンジニア</li>
+<li>貴金属宝石細工工</li>
+<li>ギタリスト</li>
+<li>理容師</li>
+<li>チューニングエンジニア</li>
+<li>グリーンアドバイザー</li>
+<li>経営コンサルタント</li>
+<li>WEBコンテンツプランナー</li>
+<li>音響スタッフ</li>
+<li>ブックデザイナー／装丁家</li>
+<li>ゲームプランナー</li>
+<li>パティシエ</li>
+<li>弁護士</li>
+<li>スポーツジャーナリスト</li>
+<li>美容師</li>
+<li>家具職人</li>
+<li>CMプランナー</li>
+<li>演出家</li>
+<li>研究員</li>
+<li>栄養士</li>
+<li>映像ディレクター</li>
+<li>写真・映像処理オペレーター</li>
+<li>検察事務官</li>
+<li>NC研削盤工</li>
+<li>衣料管理士</li>
+<li>漫画家</li>
+<li>イベントプロデューサー</li>
+<li>画家</li>
+<li>WEBマスター</li>
+<li>行政書士</li>
+<li>カーアドバイザー</li>
+<li>エクステリアデザイナー</li>
+<li>メイクアップアーティスト</li>
+<li>CADオペレーター</li>
+<li>作家</li>
+<li>アニメーター</li>
+<li>WEBビデオディレクター</li>
+<li>インテリアプランナー</li>
+<li>ゲームプログラマー</li>
+<li>アートディレクター</li>
+<li>WEBテクニカルディレクター</li>
+<li>インテリアコーディネーター</li>
+<li>CGデザイナー</li>
+<li>WEBイラストレーター</li>
+<li>インダストリアルデザイナー</li>
+<li>建築士</li>
+<li>ソフトウェア開発技術者</li>
+<li>WEBデザイナー</li>
+<li>エディター</li>
+<li>ミュージシャン</li>
+</ul>
+</details>
+<details open="">
+    <summary>コンピュータに関わる職業</summary>
+<ul>
+<li>ディスプレイデザイナー</li>
+<li>医療情報管理者</li>
+<li>テレビディレクター</li>
+<li>編集者</li>
+<li>ゲームクリエイター</li>
+<li>ビデオ組立工</li>
+<li>機械組立工</li>
+<li>金型工</li>
+<li>ＮＣフライス盤工</li>
+<li>音楽プロデューサー</li>
+<li>ハードウェア設計技術者</li>
+<li>セキュリティ技術者</li>
+<li>システムアナリスト</li>
+<li>検察官</li>
+<li>電子計算機オペレーター</li>
+<li>ゲームデザイナー</li>
+<li>サウンドプログラマー</li>
+<li>WEBプロデューサー</li>
+<li>NC旋盤工</li>
+<li>建築積算技術者</li>
+<li>インターネットコンサルタント</li>
+<li>IC生産オペレーター</li>
+<li>ロボット設計技術者</li>
+<li>ネットサーファー</li>
+<li>映像プロデューサー</li>
+<li>電算写植オペレーター</li>
+<li>ネットワークエンジニア</li>
+<li>診療情報管理士</li>
+<li>空間デザイナー</li>
+<li>ヘルプデスク</li>
+<li>カスタマーエンジニア</li>
+<li>義肢装具士</li>
+<li>消費生活アドバイザー</li>
+<li>ゲームサウンドクリエイター</li>
+<li>エディトリアルデザイナー</li>
+<li>WEBプログラマー</li>
+<li>パソコン組立･調整工</li>
+<li>WEBディレクター</li>
+<li>保健師</li>
+<li>ＷＥＢクリエイター</li>
+<li>小学校教員</li>
+<li>テレフォンオペレーター</li>
+<li>脚本家</li>
+<li>DJ</li>
+<li>アプリケーションエンジニア</li>
+<li>厩務員</li>
+<li>中小企業診断士</li>
+<li>大学教授</li>
+<li>イラストレーター</li>
+<li>メカトロニクス技術者</li>
+<li>自動車組立工</li>
+<li>プログラマー</li>
+<li>セールスエンジニア</li>
+<li>トレーサー</li>
+<li>システムエンジニア</li>
+<li>デバッガー</li>
+<li>サーチャー</li>
+<li>マーケットリサーチャー</li>
+<li>WEBコンテンツプランナー</li>
+<li>ブックデザイナー／装丁家</li>
+<li>ゲームプランナー</li>
+<li>研究員</li>
+<li>ＯＡ機器販売員</li>
+<li>WEBマスター</li>
+<li>CADオペレーター</li>
+<li>WEBビデオディレクター</li>
+<li>ゲームプログラマー</li>
+<li>WEBテクニカルディレクター</li>
+<li>CGデザイナー</li>
+<li>WEBイラストレーター</li>
+<li>ソフトウェア開発技術者</li>
+<li>WEBデザイナー</li>
+</ul>
+</details>
+<details open="">
+    <summary>サービスをおこなう職業</summary>
+<ul>
+<li>ショコラティエ</li>
+<li>ショップオーナー</li>
+<li>会社経営者</li>
+<li>通訳ガイド</li>
+<li>ホテルレストランスタッフ</li>
+<li>土地活用プランナー</li>
+<li>スポーツ審判員</li>
+<li>医療情報管理者</li>
+<li>テーブルコーディネーター</li>
+<li>オプティシャン</li>
+<li>レストア技術者</li>
+<li>ローディー</li>
+<li>リフレクソロジスト</li>
+<li>マニピュレーター</li>
+<li>神職</li>
+<li>僧侶</li>
+<li>巫女</li>
+<li>ナニー</li>
+<li>アシスタントテレビディレクター</li>
+<li>編集者</li>
+<li>フラワーデザイナー</li>
+<li>キャビンアテンダント</li>
+<li>ファッションデザイナー</li>
+<li>非破壊検査員</li>
+<li>楽器リペアマン</li>
+<li>販売員・セールスマン</li>
+<li>DIY店店員</li>
+<li>金属プレス工</li>
+<li>機械組立工</li>
+<li>金型工</li>
+<li>レコーディングエンジニア</li>
+<li>放送エンジニア</li>
+<li>書店店員</li>
+<li>ＮＣフライス盤工</li>
+<li>ピアノ調律師</li>
+<li>警備員</li>
+<li>駅構内売店販売員</li>
+<li>管理業務主任者</li>
+<li>ゲームディレクター</li>
+<li>音楽プロデューサー</li>
+<li>映像編集者</li>
+<li>福祉住環境コーディネーター</li>
+<li>ビル施設管理者</li>
+<li>映像カメラマン</li>
+<li>イベントプランナー</li>
+<li>マンション管理士</li>
+<li>アナウンサー</li>
+<li>電器店員</li>
+<li>司法書士</li>
+<li>薬種商</li>
+<li>セキュリティ技術者</li>
+<li>歯科衛生士</li>
+<li>とび工</li>
+<li>法務</li>
+<li>システムアナリスト</li>
+<li>検察官</li>
+<li>言語聴覚士</li>
+<li>秘書</li>
+<li>ベビーシッター</li>
+<li>清掃作業員</li>
+<li>シューフィッター</li>
+<li>通信販売受付スタッフ</li>
+<li>モデラー</li>
+<li>広告会社営業部員</li>
+<li>倉庫スタッフ</li>
+<li>医療情報管理士</li>
+<li>商品開発部員</li>
+<li>サウンドプログラマー</li>
+<li>WEBプロデューサー</li>
+<li>労働基準監督官</li>
+<li>薬剤師</li>
+<li>鉄道パーサー</li>
+<li>郵便事務員</li>
+<li>英文速記者</li>
+<li>柔道整復師</li>
+<li>NC旋盤工</li>
+<li>動物園飼育スタッフ</li>
+<li>キャディ</li>
+<li>助産師</li>
+<li>自動車整備士</li>
+<li>鋳物工</li>
+<li>インターネットコンサルタント</li>
+<li>診療放射線技師</li>
+<li>キッチンスペシャリスト</li>
+<li>家電修理工</li>
+<li>玩具店店員</li>
+<li>営業マン</li>
+<li>木工工芸家</li>
+<li>芸能マネージャー</li>
+<li>造園施工管理技士</li>
+<li>臨床工学技士</li>
+<li>ネットサーファー</li>
+<li>樹木医</li>
+<li>病棟クラーク</li>
+<li>ホームエレクトロニクス技術者</li>
+<li>クリーニング師</li>
+<li>眼鏡販売店員</li>
+<li>郵政外務職員</li>
+<li>映像プロデューサー</li>
+<li>電算写植オペレーター</li>
+<li>カラーリスト</li>
+<li>幼稚園教諭</li>
+<li>診療情報管理士</li>
+<li>船舶機関士</li>
+<li>アロマセラピスト</li>
+<li>ヘルプデスク</li>
+<li>イベント制作スタッフ</li>
+<li>犬訓練士</li>
+<li>図書館司書</li>
+<li>歯科医師</li>
+<li>レーシングエンジニア</li>
+<li>俳優</li>
+<li>カスタマーエンジニア</li>
+<li>フラワーコーディネーター</li>
+<li>通関士</li>
+<li>義肢装具士</li>
+<li>フレグランスコーディネーター</li>
+<li>生命保険外交員</li>
+<li>整体師</li>
+<li>二輪自動車整備士</li>
+<li>防水工</li>
+<li>ケースワーカー</li>
+<li>修復家</li>
+<li>放送記者</li>
+<li>フードスペシャリスト</li>
+<li>消費生活アドバイザー</li>
+<li>外資系スタッフ</li>
+<li>スポーツインストラクター</li>
+<li>ビル清掃員</li>
+<li>不動産鑑定士</li>
+<li>声優</li>
+<li>ブリーダー</li>
+<li>スポーツトレーナー</li>
+<li>タレント</li>
+<li>エディトリアルデザイナー</li>
+<li>WEBプログラマー</li>
+<li>農業</li>
+<li>ソムリエ</li>
+<li>アクチュアリー</li>
+<li>家庭裁判所調査官</li>
+<li>児童相談員</li>
+<li>医薬情報提供者</li>
+<li>自動車営業マン</li>
+<li>パソコン組立･調整工</li>
+<li>和裁士</li>
+<li>商品バイヤー</li>
+<li>ブライダルプレイヤー</li>
+<li>プロセス製版オペレーター</li>
+<li>WEBディレクター</li>
+<li>トリマー</li>
+<li>食品技術者</li>
+<li>公認会計士</li>
+<li>騎手</li>
+<li>保健師</li>
+<li>DPEショップ店員</li>
+<li>森林インストラクター</li>
+<li>クッキングアドバイザー</li>
+<li>観光局スタッフ</li>
+<li>弁理士</li>
+<li>国家公務員Ⅲ種</li>
+<li>カイロプラクター</li>
+<li>視能訓練士</li>
+<li>路線バス運転士</li>
+<li>電気工事士</li>
+<li>きものアドバイザー</li>
+<li>ナレーター</li>
+<li>スポーツカメラマン</li>
+<li>ＷＥＢクリエイター</li>
+<li>建築物環境衛生管理技術者</li>
+<li>ハウジングアドバイザー</li>
+<li>小学校教員</li>
+<li>海上保安官</li>
+<li>駐車場管理人</li>
+<li>カラーコーディネーター</li>
+<li>テレフォンオペレーター</li>
+<li>脚本家</li>
+<li>DJ</li>
+<li>グラフィックデザイナー</li>
+<li>アプリケーションエンジニア</li>
+<li>厩務員</li>
+<li>和菓子職人</li>
+<li>ドアパーソン</li>
+<li>中小企業診断士</li>
+<li>法務教官</li>
+<li>ホームヘルパー</li>
+<li>救急救命士</li>
+<li>航海士</li>
+<li>造園技術者</li>
+<li>営業事務</li>
+<li>ガラス工芸家</li>
+<li>スーツアクター</li>
+<li>スタントマン</li>
+<li>音楽雑誌記者</li>
+<li>イラストレーター</li>
+<li>メカトロニクス技術者</li>
+<li>ビオトープ管理士</li>
+<li>ツアープランナー</li>
+<li>臨床心理士</li>
+<li>介護福祉士</li>
+<li>理学療法士</li>
+<li>電車運転士</li>
+<li>自動車組立工</li>
+<li>ネイリスト</li>
+<li>スポーツ用品販売員</li>
+<li>マーチャンダイザー</li>
+<li>楽器インストラクター</li>
+<li>照明スタッフ</li>
+<li>新聞記者</li>
+<li>グリーンコーディネーター</li>
+<li>バーテンダー</li>
+<li>国際ボランティア</li>
+<li>住宅・不動産会社営業部員</li>
+<li>貿易スタッフ</li>
+<li>ファッションアドバイザー</li>
+<li>列車清掃員</li>
+<li>商社マン</li>
+<li>物品購買スタッフ</li>
+<li>コンサートプロモーター</li>
+<li>セールスエンジニア</li>
+<li>ランドオペレーター</li>
+<li>証券アナリスト</li>
+<li>点字通訳者</li>
+<li>歯科技工士</li>
+<li>管理美容師</li>
+<li>マーシャラー</li>
+<li>リフォーマー</li>
+<li>コンパニオン</li>
+<li>システムエンジニア</li>
+<li>フラワーショップ店員</li>
+<li>ウェイトレス</li>
+<li>フライトアテンダント</li>
+<li>通訳者</li>
+<li>作業療法士</li>
+<li>牧師</li>
+<li>ディスパッチャー</li>
+<li>貴金属宝石細工工</li>
+<li>翻訳家</li>
+<li>サーチャー</li>
+<li>動物看護師</li>
+<li>ベルパーソン</li>
+<li>マーケットリサーチャー</li>
+<li>精神保健福祉士</li>
+<li>管理栄養士</li>
+<li>理容師</li>
+<li>チューニングエンジニア</li>
+<li>グリーンアドバイザー</li>
+<li>経営コンサルタント</li>
+<li>タクシー配車オペレーター</li>
+<li>WEBコンテンツプランナー</li>
+<li>音響スタッフ</li>
+<li>ブックデザイナー／装丁家</li>
+<li>ゲームプランナー</li>
+<li>調教師</li>
+<li>パティシエ</li>
+<li>美容師</li>
+<li>清涼飲料ルートセールスマン</li>
+<li>家具職人</li>
+<li>セラピスト</li>
+<li>CMプランナー</li>
+<li>水族館スタッフ</li>
+<li>テーマパークスタッフ</li>
+<li>じんかい収集作業員</li>
+<li>栄養士</li>
+<li>エレベーター据付工</li>
+<li>着付け</li>
+<li>映像ディレクター</li>
+<li>写真・映像処理オペレーター</li>
+<li>臭気判定士</li>
+<li>中華料理料理人</li>
+<li>損害保険募集人</li>
+<li>検察事務官</li>
+<li>手話通訳士</li>
+<li>医療ソーシャルワーカー</li>
+<li>航空管制官</li>
+<li>NC研削盤工</li>
+<li>衣料管理士</li>
+<li>ＯＡ機器販売員</li>
+<li>広報スタッフ</li>
+<li>漫画家</li>
+<li>イベントプロデューサー</li>
+<li>画家</li>
+<li>WEBマスター</li>
+<li>環境計量士</li>
+<li>すし職人</li>
+<li>信用金庫渉外係</li>
+<li>行政書士</li>
+<li>観光バスガイド</li>
+<li>あんまマッサージ指圧師</li>
+<li>カーアドバイザー</li>
+<li>板前</li>
+<li>エクステリアデザイナー</li>
+<li>メイクアップアーティスト</li>
+<li>コンシェルジュ</li>
+<li>ビューティアドバイザー</li>
+<li>占い師</li>
+<li>ウェイター</li>
+<li>金融ディーラー</li>
+<li>管理理容師</li>
+<li>印刷営業マン</li>
+<li>グランドスタッフ</li>
+<li>ソフトウェア開発技術者</li>
+<li>エステティシャン</li>
+<li>フロントクラーク</li>
+<li>旅行会社カウンタースタッフ</li>
+<li>ツアーコンダクター</li>
+<li>訪問介護員</li>
+</ul>
+</details>
+<details open="">
+    <summary>モノづくりに関わる職業</summary>
+<ul>
+<li>ショコラティエ</li>
+<li>パーカッショニスト</li>
+<li>サックスプレイヤー</li>
+<li>トランペッター</li>
+<li>校正者</li>
+<li>ディスプレイデザイナー</li>
+<li>映画バイヤー</li>
+<li>舞台機構調整技能士</li>
+<li>テキスタイルデザイナー</li>
+<li>レストア技術者</li>
+<li>マニピュレーター</li>
+<li>小説家</li>
+<li>アシスタントテレビディレクター</li>
+<li>テレビディレクター</li>
+<li>編集者</li>
+<li>フラワーデザイナー</li>
+<li>パン職人</li>
+<li>紡績運転工</li>
+<li>漫画原作者</li>
+<li>ファッションデザイナー</li>
+<li>標題書士</li>
+<li>童話作家</li>
+<li>書道家</li>
+<li>ビデオ組立工</li>
+<li>楽器リペアマン</li>
+<li>絵本作家</li>
+<li>惣菜製造工</li>
+<li>水産ねり製品製造工</li>
+<li>織布運転工</li>
+<li>DIY店店員</li>
+<li>漆器製造工</li>
+<li>作詞家</li>
+<li>金属プレス工</li>
+<li>機械組立工</li>
+<li>内装工</li>
+<li>金型工</li>
+<li>レコーディングエンジニア</li>
+<li>鉄骨工</li>
+<li>ＮＣフライス盤工</li>
+<li>タイル工・レンガ工</li>
+<li>測量士</li>
+<li>圧延工</li>
+<li>浄化槽設備士</li>
+<li>左官</li>
+<li>建築ブロック工</li>
+<li>建築大工</li>
+<li>彫金家</li>
+<li>めっき工</li>
+<li>ゲームディレクター</li>
+<li>詩人</li>
+<li>音楽プロデューサー</li>
+<li>美術スタッフ</li>
+<li>映像編集者</li>
+<li>映像カメラマン</li>
+<li>建築構造設計技術者</li>
+<li>乳製品製造工</li>
+<li>プラント設計技術者</li>
+<li>製薬工</li>
+<li>製鋼工</li>
+<li>ハードウェア設計技術者</li>
+<li>土木施工管理技士</li>
+<li>セキュリティ技術者</li>
+<li>とび工</li>
+<li>システムアナリスト</li>
+<li>鉄筋工</li>
+<li>計器組立工</li>
+<li>ゲームデザイナー</li>
+<li>シューフィッター</li>
+<li>テレビカメラマン</li>
+<li>医療用画像放射線機器組立技士</li>
+<li>モデラー</li>
+<li>ガラス食器製造工</li>
+<li>照明デザイナー</li>
+<li>作曲家</li>
+<li>合板工</li>
+<li>商品開発部員</li>
+<li>サウンドプログラマー</li>
+<li>WEBプロデューサー</li>
+<li>薬剤師</li>
+<li>NC旋盤工</li>
+<li>建築積算技術者</li>
+<li>自動車整備士</li>
+<li>鋳物工</li>
+<li>IC生産オペレーター</li>
+<li>キッチンスペシャリスト</li>
+<li>ロボット設計技術者</li>
+<li>木工工芸家</li>
+<li>清酒製造工</li>
+<li>管工事施工管理技士</li>
+<li>縫製工</li>
+<li>ホームエレクトロニクス技術者</li>
+<li>映像プロデューサー</li>
+<li>電算写植オペレーター</li>
+<li>船舶機関士</li>
+<li>溶接工</li>
+<li>空間デザイナー</li>
+<li>イベント制作スタッフ</li>
+<li>マシニングセンタ・オペレーター</li>
+<li>インテリアデザイナー</li>
+<li>パタンナー</li>
+<li>パッケージデザイナー</li>
+<li>俳優</li>
+<li>義肢装具士</li>
+<li>紡織保全工</li>
+<li>建築施工管理技士</li>
+<li>防水工</li>
+<li>修復家</li>
+<li>放送記者</li>
+<li>フードスペシャリスト</li>
+<li>プラスチック製品成形工</li>
+<li>染色工</li>
+<li>声優</li>
+<li>ゲームサウンドクリエイター</li>
+<li>保温工</li>
+<li>タレント</li>
+<li>エディトリアルデザイナー</li>
+<li>WEBプログラマー</li>
+<li>農業</li>
+<li>パソコン組立･調整工</li>
+<li>配管工</li>
+<li>雑貨デザイナー</li>
+<li>プロセス製版オペレーター</li>
+<li>WEBディレクター</li>
+<li>保健師</li>
+<li>土木作業員</li>
+<li>ソーイングスタッフ</li>
+<li>カーデザイナー</li>
+<li>クッキングアドバイザー</li>
+<li>陶芸家</li>
+<li>電気工事士</li>
+<li>スポーツカメラマン</li>
+<li>ＷＥＢクリエイター</li>
+<li>建築物環境衛生管理技術者</li>
+<li>小学校教員</li>
+<li>海上保安官</li>
+<li>カラーコーディネーター</li>
+<li>テレフォンオペレーター</li>
+<li>脚本家</li>
+<li>DJ</li>
+<li>グラフィックデザイナー</li>
+<li>アプリケーションエンジニア</li>
+<li>和菓子職人</li>
+<li>大学教授</li>
+<li>営業事務</li>
+<li>ガラス工芸家</li>
+<li>スーツアクター</li>
+<li>スタントマン</li>
+<li>音楽雑誌記者</li>
+<li>イラストレーター</li>
+<li>メカトロニクス技術者</li>
+<li>ビオトープ管理士</li>
+<li>自動車組立工</li>
+<li>製材工</li>
+<li>照明スタッフ</li>
+<li>新聞記者</li>
+<li>プログラマー</li>
+<li>住宅・不動産会社営業部員</li>
+<li>航空整備士</li>
+<li>DTPオペレーター</li>
+<li>セールスエンジニア</li>
+<li>製パン工</li>
+<li>靴製造工</li>
+<li>建築板金工</li>
+<li>トレーサー</li>
+<li>ルポライター</li>
+<li>システムエンジニア</li>
+<li>貴金属宝石細工工</li>
+<li>建設機械オペレーター</li>
+<li>デバッガー</li>
+<li>カメラ組立工</li>
+<li>WEBコンテンツプランナー</li>
+<li>音響スタッフ</li>
+<li>ブックデザイナー／装丁家</li>
+<li>ゲームプランナー</li>
+<li>パティシエ</li>
+<li>家具職人</li>
+<li>CMプランナー</li>
+<li>演出家</li>
+<li>研究員</li>
+<li>冷凍加工食品製造工</li>
+<li>エレベーター据付工</li>
+<li>映像ディレクター</li>
+<li>NC研削盤工</li>
+<li>型枠大工</li>
+<li>漫画家</li>
+<li>イベントプロデューサー</li>
+<li>画家</li>
+<li>カーアドバイザー</li>
+<li>エクステリアデザイナー</li>
+<li>CADオペレーター</li>
+<li>オフセット印刷作業員</li>
+<li>機内食製造工</li>
+<li>エンジン設計技術者</li>
+<li>袋物製造工</li>
+<li>インテリアプランナー</li>
+<li>楽器クラフトマン</li>
+<li>CGデザイナー</li>
+<li>インダストリアルデザイナー</li>
+<li>エディター</li>
+<li>調理師</li>
+<li>ミュージシャン</li>
+</ul>
+</details>
+<details open="">
+    <summary>乗り物に関わる職業</summary>
+<ul>
+<li>小型船舶操縦士</li>
+<li>救急隊員</li>
+<li>レストア技術者</li>
+<li>キャビンアテンダント</li>
+<li>有害液体汚染防止管理者</li>
+<li>鉄道パーサー</li>
+<li>自動車整備士</li>
+<li>船舶機関士</li>
+<li>溶接工</li>
+<li>レーシングエンジニア</li>
+<li>通関士</li>
+<li>無線通信士</li>
+<li>二輪自動車整備士</li>
+<li>自動車営業マン</li>
+<li>カーデザイナー</li>
+<li>宇宙飛行士</li>
+<li>路線バス運転士</li>
+<li>海上保安官</li>
+<li>航海士</li>
+<li>ツアープランナー</li>
+<li>電車運転士</li>
+<li>自動車組立工</li>
+<li>貿易スタッフ</li>
+<li>列車清掃員</li>
+<li>航空整備士</li>
+<li>マーシャラー</li>
+<li>フライトアテンダント</li>
+<li>潜水士</li>
+<li>ディスパッチャー</li>
+<li>チューニングエンジニア</li>
+<li>タクシー配車オペレーター</li>
+<li>清涼飲料ルートセールスマン</li>
+<li>じんかい収集作業員</li>
+<li>自衛官</li>
+<li>エレベーター据付工</li>
+<li>損害保険募集人</li>
+<li>航空管制官</li>
+<li>観光バスガイド</li>
+<li>カーアドバイザー</li>
+<li>エンジン設計技術者</li>
+<li>レーシングドライバー</li>
+<li>グランドスタッフ</li>
+<li>パイロット</li>
+<li>ツアーコンダクター</li>
+</ul>
+</details>
+<details open="">
+    <summary>健康・福祉に関わる職業</summary>
+<ul>
+<li>救急隊員</li>
+<li>スポーツ審判員</li>
+<li>ナニー</li>
+<li>メイクセラピスト</li>
+<li>介護支援専門員</li>
+<li>プロ野球選手</li>
+<li>スクールカウンセラー</li>
+<li>福祉住環境コーディネーター</li>
+<li>薬種商</li>
+<li>歯科衛生士</li>
+<li>言語聴覚士</li>
+<li>ベビーシッター</li>
+<li>清掃作業員</li>
+<li>医療情報管理士</li>
+<li>有害液体汚染防止管理者</li>
+<li>労働基準監督官</li>
+<li>薬剤師</li>
+<li>柔道整復師</li>
+<li>キャディ</li>
+<li>助産師</li>
+<li>カウンセラー</li>
+<li>診療放射線技師</li>
+<li>臨床工学技士</li>
+<li>病棟クラーク</li>
+<li>診療情報管理士</li>
+<li>アロマセラピスト</li>
+<li>犬訓練士</li>
+<li>プロスポーツ選手</li>
+<li>歯科医師</li>
+<li>義肢装具士</li>
+<li>フレグランスコーディネーター</li>
+<li>生命保険外交員</li>
+<li>整体師</li>
+<li>ケースワーカー</li>
+<li>消費生活アドバイザー</li>
+<li>スポーツインストラクター</li>
+<li>スポーツトレーナー</li>
+<li>アクチュアリー</li>
+<li>児童相談員</li>
+<li>医薬情報提供者</li>
+<li>食品技術者</li>
+<li>カイロプラクター</li>
+<li>視能訓練士</li>
+<li>建築物環境衛生管理技術者</li>
+<li>小学校教員</li>
+<li>海上保安官</li>
+<li>カラーコーディネーター</li>
+<li>テレフォンオペレーター</li>
+<li>和菓子職人</li>
+<li>ドアパーソン</li>
+<li>大学教授</li>
+<li>ホームヘルパー</li>
+<li>救急救命士</li>
+<li>臨床心理士</li>
+<li>介護福祉士</li>
+<li>理学療法士</li>
+<li>スポーツ用品販売員</li>
+<li>保育士</li>
+<li>点字通訳者</li>
+<li>歯科技工士</li>
+<li>作業療法士</li>
+<li>動物看護師</li>
+<li>体育教師</li>
+<li>精神保健福祉士</li>
+<li>管理栄養士</li>
+<li>スポーツジャーナリスト</li>
+<li>セラピスト</li>
+<li>冷凍加工食品製造工</li>
+<li>じんかい収集作業員</li>
+<li>栄養士</li>
+<li>手話通訳士</li>
+<li>医療ソーシャルワーカー</li>
+<li>環境計量士</li>
+<li>行政書士</li>
+<li>あんまマッサージ指圧師</li>
+<li>音楽療法士</li>
+<li>アウトドアインストラクター</li>
+<li>社会福祉士</li>
+<li>看護師</li>
+<li>訪問介護員</li>
+<li>医師</li>
+</ul>
+</details>
+<details open="">
+    <summary>冠婚葬祭に関わる職業</summary>
+<ul>
+<li>ホテルレストランスタッフ</li>
+<li>神職
+<ul>
+<li>牧師</li>
+</ul>
+</li>
+<li>僧侶</li>
+<li>巫女</li>
+<li>管理美容師</li>
+<li>牧師</li>
+<li>理容師</li>
+<li>美容師</li>
+<li>メイクアップアーティスト</li>
+<li>ビューティアドバイザー</li>
+<li>葬祭ディレクター</li>
+<li>ブライダルプランナー</li>
+</ul>
+</details>
+<details open="">
+    <summary>出版に関わる職業</summary>
+<ul>
+<li>校正者</li>
+<li>小説家</li>
+<li>編集者</li>
+<li>漫画原作者</li>
+<li>標題書士</li>
+<li>童話作家</li>
+<li>絵本作家</li>
+<li>書店店員</li>
+<li>広告会社営業部員</li>
+<li>英文速記者</li>
+<li>芸能マネージャー</li>
+<li>モデル</li>
+<li>電算写植オペレーター</li>
+<li>音楽評論家</li>
+<li>エディトリアルデザイナー</li>
+<li>プロセス製版オペレーター</li>
+<li>スポーツカメラマン</li>
+<li>脚本家</li>
+<li>グラフィックデザイナー</li>
+<li>音楽雑誌記者</li>
+<li>イラストレーター</li>
+<li>新聞記者</li>
+<li>DTPオペレーター</li>
+<li>ルポライター</li>
+<li>翻訳家</li>
+<li>ブックデザイナー／装丁家</li>
+<li>スポーツジャーナリスト</li>
+<li>漫画家</li>
+<li>作家</li>
+<li>アニメーター</li>
+<li>オフセット印刷作業員</li>
+<li>アートディレクター</li>
+<li>印刷営業マン</li>
+<li>コピーライター</li>
+<li>エディター</li>
+</ul>
+</details>
+<details open="">
+    <summary>医療に関わる職業</summary>
+<ul>
+<li>救急隊員</li>
+<li>医療情報管理者</li>
+<li>オプティシャン</li>
+<li>特別支援学校教諭</li>
+<li>介護支援専門員</li>
+<li>薬種商</li>
+<li>製薬工</li>
+<li>歯科衛生士</li>
+<li>言語聴覚士</li>
+<li>医療用画像放射線機器組立技士</li>
+<li>医療情報管理士</li>
+<li>薬剤師</li>
+<li>柔道整復師</li>
+<li>助産師</li>
+<li>カウンセラー</li>
+<li>診療放射線技師</li>
+<li>臨床工学技士</li>
+<li>消防士</li>
+<li>病棟クラーク</li>
+<li>診療情報管理士</li>
+<li>歯科医師</li>
+<li>義肢装具士</li>
+<li>整体師</li>
+<li>ケースワーカー</li>
+<li>医療秘書</li>
+<li>医薬情報提供者</li>
+<li>保健師</li>
+<li>視能訓練士</li>
+<li>カラーコーディネーター</li>
+<li>ホームヘルパー</li>
+<li>救急救命士</li>
+<li>臨床心理士</li>
+<li>介護福祉士</li>
+<li>理学療法士</li>
+<li>歯科技工士</li>
+<li>作業療法士</li>
+<li>動物看護師</li>
+<li>精神保健福祉士</li>
+<li>管理栄養士</li>
+<li>セラピスト</li>
+<li>栄養士</li>
+<li>医療ソーシャルワーカー</li>
+<li>あんまマッサージ指圧師</li>
+<li>音楽療法士</li>
+<li>はり師・きゅう師</li>
+<li>医療事務</li>
+<li>臨床検査技師</li>
+<li>獣医師</li>
+<li>看護師</li>
+<li>訪問介護員</li>
+<li>医師</li>
+</ul>
+</details>
+<details open="">
+    <summary>国や海外に貢献する職業</summary>
+<ul>
+<li>国際公務員</li>
+<li>裁判所事務官</li>
+<li>救急隊員</li>
+<li>入国審査官</li>
+<li>通訳ガイド</li>
+<li>職業訓練指導員</li>
+<li>特別支援学校教諭</li>
+<li>ニュースキャスター</li>
+<li>レンジャー</li>
+<li>麻薬取締官</li>
+<li>政治家秘書</li>
+<li>司法書士</li>
+<li>国会議員政策担当秘書</li>
+<li>法務</li>
+<li>検察官</li>
+<li>労働基準監督官</li>
+<li>郵便事務員</li>
+<li>美術教師</li>
+<li>消防士</li>
+<li>政治家</li>
+<li>郵政外務職員</li>
+<li>裁判官</li>
+<li>幼稚園教諭</li>
+<li>犬訓練士</li>
+<li>図書館司書</li>
+<li>通関士</li>
+<li>林業技士</li>
+<li>外資系スタッフ</li>
+<li>刑務官</li>
+<li>家庭裁判所調査官</li>
+<li>保健師</li>
+<li>観光局スタッフ</li>
+<li>国家公務員Ⅲ種</li>
+<li>宇宙飛行士</li>
+<li>小学校教員</li>
+<li>海上保安官</li>
+<li>法務教官</li>
+<li>航海士</li>
+<li>ビオトープ管理士</li>
+<li>電車運転士</li>
+<li>新聞記者</li>
+<li>国際ボランティア</li>
+<li>入国警備官</li>
+<li>公害防止管理者</li>
+<li>ランドオペレーター</li>
+<li>中学校教諭</li>
+<li>通訳者</li>
+<li>翻訳家</li>
+<li>体育教師</li>
+<li>弁護士</li>
+<li>国税専門官</li>
+<li>国連スタッフ</li>
+<li>じんかい収集作業員</li>
+<li>自衛官</li>
+<li>環境アセスメント調査員</li>
+<li>国家公務員Ⅱ種</li>
+<li>大使館スタッフ</li>
+<li>検察事務官</li>
+<li>外務公務員</li>
+<li>航空管制官</li>
+<li>行政書士</li>
+<li>社会保険労務士</li>
+<li>外交官</li>
+<li>地方公務員</li>
+<li>日本語教師</li>
+<li>国家公務員Ⅰ種</li>
+<li>高校教員</li>
+<li>警察官</li>
+<li>語学教師</li>
+</ul>
+</details>
+<details open="">
+    <summary>建築・インテリアの職業</summary>
+<ul>
+<li>宅地建物取引士</li>
+<li>土地活用プランナー</li>
+<li>テキスタイルデザイナー</li>
+<li>サッシ工</li>
+<li>非破壊検査員</li>
+<li>内装工</li>
+<li>鉄骨工</li>
+<li>タイル工・レンガ工</li>
+<li>測量士</li>
+<li>浄化槽設備士</li>
+<li>左官</li>
+<li>建築ブロック工</li>
+<li>建築大工</li>
+<li>管理業務主任者</li>
+<li>福祉住環境コーディネーター</li>
+<li>ビル施設管理者</li>
+<li>建築構造設計技術者</li>
+<li>マンション管理士</li>
+<li>プラント設計技術者</li>
+<li>土木施工管理技士</li>
+<li>とび工</li>
+<li>鉄筋工</li>
+<li>照明デザイナー</li>
+<li>合板工</li>
+<li>建築積算技術者</li>
+<li>キッチンスペシャリスト</li>
+<li>造園施工管理技士</li>
+<li>管工事施工管理技士</li>
+<li>カラーリスト</li>
+<li>溶接工</li>
+<li>空間デザイナー</li>
+<li>インテリアデザイナー</li>
+<li>建築施工管理技士</li>
+<li>防水工</li>
+<li>不動産鑑定士</li>
+<li>保温工</li>
+<li>配管工</li>
+<li>土木作業員</li>
+<li>電気工事士</li>
+<li>建築物環境衛生管理技術者</li>
+<li>ハウジングアドバイザー</li>
+<li>駐車場管理人</li>
+<li>カラーコーディネーター</li>
+<li>造園技術者</li>
+<li>製材工</li>
+<li>グリーンコーディネーター</li>
+<li>建築板金工</li>
+<li>トレーサー</li>
+<li>建設機械オペレーター</li>
+<li>グリーンアドバイザー</li>
+<li>家具職人</li>
+<li>土地家屋調査士</li>
+<li>エレベーター据付工</li>
+<li>環境アセスメント調査員</li>
+<li>型枠大工</li>
+<li>エクステリアデザイナー</li>
+<li>CADオペレーター</li>
+<li>インテリアプランナー</li>
+<li>インテリアコーディネーター</li>
+<li>ガーデンデザイナー</li>
+<li>建築士</li>
+</ul>
+</details>
+<details open="">
+    <summary>料理に関わる職業</summary>
+<ul>
+<li>ショコラティエ</li>
+<li>ホテルレストランスタッフ</li>
+<li>テーブルコーディネーター</li>
+<li>パン職人</li>
+<li>惣菜製造工</li>
+<li>水産ねり製品製造工</li>
+<li>乳製品製造工</li>
+<li>フードスペシャリスト</li>
+<li>ソムリエ</li>
+<li>食品技術者</li>
+<li>クッキングアドバイザー</li>
+<li>和菓子職人</li>
+<li>バーテンダー</li>
+<li>製パン工</li>
+<li>ウェイトレス</li>
+<li>管理栄養士</li>
+<li>パティシエ</li>
+<li>冷凍加工食品製造工</li>
+<li>栄養士</li>
+<li>中華料理料理人</li>
+<li>すし職人</li>
+<li>板前</li>
+<li>機内食製造工</li>
+<li>ウェイター</li>
+<li>フードコーディネーター</li>
+<li>調理師</li>
+</ul>
+</details>
+<details open="">
+    <summary>旅行に関わる職業</summary>
+<ul>
+<li>入国審査官</li>
+<li>通訳ガイド</li>
+<li>ホテルレストランスタッフ</li>
+<li>キャビンアテンダント</li>
+<li>通関士</li>
+<li>外資系スタッフ</li>
+<li>観光局スタッフ</li>
+<li>ドアパーソン</li>
+<li>ツアープランナー</li>
+<li>国際ボランティア</li>
+<li>ランドオペレーター</li>
+<li>フライトアテンダント</li>
+<li>通訳者</li>
+<li>ベルパーソン</li>
+<li>テーマパークスタッフ</li>
+<li>航空管制官</li>
+<li>観光バスガイド</li>
+<li>コンシェルジュ</li>
+<li>アウトドアインストラクター</li>
+<li>グランドスタッフ</li>
+<li>フロントクラーク</li>
+<li>旅行会社カウンタースタッフ</li>
+<li>ツアーコンダクター</li>
+</ul>
+</details>
+<details open="">
+    <summary>科学・研究に関わる職業</summary>
+<ul>
+<li>レンジャー</li>
+<li>非破壊検査員</li>
+<li>放射線取扱主任者</li>
+<li>めっき工</li>
+<li>製薬工</li>
+<li>サウンドプログラマー</li>
+<li>薬剤師</li>
+<li>診療放射線技師</li>
+<li>IC生産オペレーター</li>
+<li>ロボット設計技術者</li>
+<li>臨床工学技士</li>
+<li>ホームエレクトロニクス技術者</li>
+<li>溶接工</li>
+<li>義肢装具士</li>
+<li>学芸員</li>
+<li>宇宙飛行士</li>
+<li>カラーコーディネーター</li>
+<li>グラフィックデザイナー</li>
+<li>アプリケーションエンジニア</li>
+<li>大学教授</li>
+<li>ガラス工芸家</li>
+<li>メカトロニクス技術者</li>
+<li>理学療法士</li>
+<li>電車運転士</li>
+<li>バイオ技術者</li>
+<li>研究員</li>
+<li>環境アセスメント調査員</li>
+<li>臭気判定士</li>
+<li>NC研削盤工</li>
+<li>カーアドバイザー</li>
+</ul>
+</details>
+<details open="">
+    <summary>美容・ファッションに関わる職業</summary>
+<ul>
+<li>ショップオーナー</li>
+<li>テキスタイルデザイナー</li>
+<li>オプティシャン</li>
+<li>リフレクソロジスト</li>
+<li>メイクセラピスト</li>
+<li>紡績運転工</li>
+<li>ファッションデザイナー</li>
+<li>織布運転工</li>
+<li>モデル</li>
+<li>縫製工</li>
+<li>クリーニング師</li>
+<li>眼鏡販売店員</li>
+<li>カラーリスト</li>
+<li>アロマセラピスト</li>
+<li>パタンナー</li>
+<li>フレグランスコーディネーター</li>
+<li>染色工</li>
+<li>和裁士</li>
+<li>トリマー</li>
+<li>ソーイングスタッフ</li>
+<li>きものアドバイザー</li>
+<li>カラーコーディネーター</li>
+<li>ネイリスト</li>
+<li>スポーツ用品販売員</li>
+<li>ファッションアドバイザー</li>
+<li>管理美容師</li>
+<li>靴製造工</li>
+<li>リフォーマー</li>
+<li>貴金属宝石細工工</li>
+<li>理容師</li>
+<li>美容師</li>
+<li>セラピスト</li>
+<li>着付け</li>
+<li>衣料管理士</li>
+<li>あんまマッサージ指圧師</li>
+<li>メイクアップアーティスト</li>
+<li>ビューティアドバイザー</li>
+<li>袋物製造工</li>
+<li>スタイリスト</li>
+<li>管理理容師</li>
+<li>ブライダルプランナー</li>
+<li>エステティシャン</li>
+</ul>
+</details>
+<details open="">
+    <summary>自然・動物に関わる職業</summary>
+<ul>
+<li>小型船舶操縦士</li>
+<li>神職</li>
+<li>レンジャー</li>
+<li>僧侶</li>
+<li>巫女</li>
+<li>フラワーデザイナー</li>
+<li>海女／海士</li>
+<li>有害液体汚染防止管理者</li>
+<li>動物園飼育スタッフ</li>
+<li>造園施工管理技士</li>
+<li>樹木医</li>
+<li>犬訓練士</li>
+<li>フラワーコーディネーター</li>
+<li>林業技士</li>
+<li>染色工</li>
+<li>ブリーダー</li>
+<li>農業</li>
+<li>トリマー</li>
+<li>騎手</li>
+<li>森林インストラクター</li>
+<li>カラーコーディネーター</li>
+<li>厩務員</li>
+<li>航海士</li>
+<li>造園技術者</li>
+<li>ビオトープ管理士</li>
+<li>ツアープランナー</li>
+<li>グリーンコーディネーター</li>
+<li>公害防止管理者</li>
+<li>酪農家</li>
+<li>バイオ技術者</li>
+<li>フラワーショップ店員</li>
+<li>潜水士</li>
+<li>動物看護師</li>
+<li>グリーンアドバイザー</li>
+<li>調教師</li>
+<li>セラピスト</li>
+<li>研究員</li>
+<li>水族館スタッフ</li>
+<li>じんかい収集作業員</li>
+<li>環境アセスメント調査員</li>
+<li>臭気判定士</li>
+<li>航空管制官</li>
+<li>環境計量士</li>
+<li>エクステリアデザイナー</li>
+<li>気象予報士</li>
+<li>家畜人工受精士</li>
+<li>ガーデンデザイナー</li>
+<li>獣医師</li>
+</ul>
+</details>
+<details open="">
+    <summary>芸術に関わる職業</summary>
+<ul>
+<li>パーカッショニスト</li>
+<li>サックスプレイヤー</li>
+<li>トランペッター</li>
+<li>ミュージカル俳優</li>
+<li>ディスプレイデザイナー</li>
+<li>舞台機構調整技能士</li>
+<li>ローディー</li>
+<li>マニピュレーター</li>
+<li>ボーカリスト</li>
+<li>ピアノ講師</li>
+<li>メイクセラピスト</li>
+<li>フラワーデザイナー</li>
+<li>ファッションデザイナー</li>
+<li>標題書士</li>
+<li>書道家</li>
+<li>ビデオ組立工</li>
+<li>楽器リペアマン</li>
+<li>漆器製造工</li>
+<li>作詞家</li>
+<li>レコーディングエンジニア</li>
+<li>ピアノ調律師</li>
+<li>ドラマー</li>
+<li>彫金家</li>
+<li>詩人</li>
+<li>音楽プロデューサー</li>
+<li>美術スタッフ</li>
+<li>映像編集者</li>
+<li>映像カメラマン</li>
+<li>モデラー</li>
+<li>照明デザイナー</li>
+<li>作曲家</li>
+<li>サウンドプログラマー</li>
+<li>WEBプロデューサー</li>
+<li>美術教師</li>
+<li>木工工芸家</li>
+<li>芸能マネージャー</li>
+<li>造園施工管理技士</li>
+<li>カラーリスト</li>
+<li>空間デザイナー</li>
+<li>俳優</li>
+<li>音楽評論家</li>
+<li>フラワーコーディネーター</li>
+<li>ダンサー</li>
+<li>修復家</li>
+<li>染色工</li>
+<li>エディトリアルデザイナー</li>
+<li>学芸員</li>
+<li>指揮者</li>
+<li>ブライダルプレイヤー</li>
+<li>ピアニスト</li>
+<li>陶芸家</li>
+<li>スポーツカメラマン</li>
+<li>DJ</li>
+<li>グラフィックデザイナー</li>
+<li>和菓子職人</li>
+<li>造園技術者</li>
+<li>ガラス工芸家</li>
+<li>音楽雑誌記者</li>
+<li>イラストレーター</li>
+<li>楽器インストラクター</li>
+<li>照明スタッフ</li>
+<li>ギタリスト</li>
+<li>写真・映像処理オペレーター</li>
+<li>衣料管理士</li>
+<li>画家</li>
+<li>カーアドバイザー</li>
+<li>音楽教師</li>
+<li>音楽療法士</li>
+<li>CGデザイナー</li>
+<li>ミュージシャン</li>
+</ul>
+</details>
+<details open="">
+    <summary>語学・教育に関わる職業</summary>
+<ul>
+<li>国際公務員</li>
+<li>入国審査官</li>
+<li>通訳ガイド</li>
+<li>職業訓練指導員</li>
+<li>特別支援学校教諭</li>
+<li>ピアノ講師</li>
+<li>ナニー</li>
+<li>キャビンアテンダント</li>
+<li>スクールカウンセラー</li>
+<li>ベビーシッター</li>
+<li>英文速記者</li>
+<li>美術教師</li>
+<li>専門学校教員</li>
+<li>幼稚園教諭</li>
+<li>図書館司書</li>
+<li>外資系スタッフ</li>
+<li>児童相談員</li>
+<li>観光局スタッフ</li>
+<li>小学校教員</li>
+<li>ドアパーソン</li>
+<li>大学教授</li>
+<li>楽器インストラクター</li>
+<li>国際ボランティア</li>
+<li>貿易スタッフ</li>
+<li>保育士</li>
+<li>中学校教諭</li>
+<li>フライトアテンダント</li>
+<li>通訳者</li>
+<li>翻訳家</li>
+<li>ベルパーソン</li>
+<li>体育教師</li>
+<li>国連スタッフ</li>
+<li>研究員</li>
+<li>大使館スタッフ</li>
+<li>外務公務員</li>
+<li>行政書士</li>
+<li>観光バスガイド</li>
+<li>外交官</li>
+<li>音楽教師</li>
+<li>OA機器インストラクター</li>
+<li>日本語教師</li>
+<li>グランドスタッフ</li>
+<li>高校教員</li>
+<li>フロントクラーク</li>
+<li>旅行会社カウンタースタッフ</li>
+<li>ツアーコンダクター</li>
+<li>語学教師</li>
+</ul>
+</details>
+<details open="">
+    <summary>資産・金融に関わる職業</summary>
+<ul>
+<li>ショップオーナー</li>
+<li>会社経営者</li>
+<li>宅地建物取引士</li>
+<li>土地活用プランナー</li>
+<li>ファンドマネジャー</li>
+<li>郵便事務員</li>
+<li>経理・財務</li>
+<li>郵政外務職員</li>
+<li>通関士</li>
+<li>生命保険外交員</li>
+<li>修復家</li>
+<li>消費生活アドバイザー</li>
+<li>不動産鑑定士</li>
+<li>アクチュアリー</li>
+<li>公認会計士</li>
+<li>ハウジングアドバイザー</li>
+<li>中小企業診断士</li>
+<li>住宅・不動産会社営業部員</li>
+<li>貿易スタッフ</li>
+<li>証券アナリスト</li>
+<li>税理士</li>
+<li>経営コンサルタント</li>
+<li>国税専門官</li>
+<li>土地家屋調査士</li>
+<li>損害保険募集人</li>
+<li>信用金庫渉外係</li>
+<li>社会保険労務士</li>
+<li>金融ディーラー</li>
+<li>テラー</li>
+<li>ファイナンシャルプランナー</li>
+</ul>
+</details>
+<p></p>
+</div>
+      </div>
+      <div class="md-sidebar-toc">
+<div class="md-toc">
+<details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#introduction" class="md-toc-link"><p>Introduction</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#background" class="md-toc-link">
+            <p>Background</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#document-scope" class="md-toc-link">
+            <p>Document Scope</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#intended-audience" class="md-toc-link">
+            <p>Intended Audience</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#general-statements" class="md-toc-link"><p>General Statements</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#documents-policy" class="md-toc-link">
+            <p>Documents Policy</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#abbreviations" class="md-toc-link">
+            <p>Abbreviations</p>
+
+          </a></div><details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#solution-levels" class="md-toc-link"><p>Solution Levels</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level1" class="md-toc-link">
+            <p>Level.1</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level2" class="md-toc-link">
+            <p>Level.2</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level3" class="md-toc-link">
+            <p>Level.3</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level4" class="md-toc-link">
+            <p>Level.4</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level5" class="md-toc-link">
+            <p>Level.5</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#level6" class="md-toc-link">
+            <p>Level.6</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#critical-success-factors" class="md-toc-link"><p>Critical Success Factors</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#サイズ別" class="md-toc-link"><p>サイズ別</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#小型1m以下" class="md-toc-link">
+            <p>小型（1m以下）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#人並み1m以上から2m程度-max3m" class="md-toc-link">
+            <p>人並み（1m以上から2m程度 (MAX:3m)）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#搭乗型1m以上-" class="md-toc-link">
+            <p>搭乗型（1m以上～）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#無階級サイズ不問" class="md-toc-link">
+            <p>無階級(サイズ不問)</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#目的別" class="md-toc-link"><p>目的別</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#競技用ロボット" class="md-toc-link">
+            <p>競技用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#エンターテインメント用ロボット" class="md-toc-link">
+            <p>エンターテインメント用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#産業用ロボット" class="md-toc-link">
+            <p>産業用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#家事代行ロボット" class="md-toc-link">
+            <p>家事代行ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#介護用ロボット" class="md-toc-link">
+            <p>介護用ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#災害救助ロボット" class="md-toc-link">
+            <p>災害救助ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#環境保全ロボット" class="md-toc-link">
+            <p>環境保全ロボット</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#-ロボット" class="md-toc-link">
+            <p>???? ロボット</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#overview" class="md-toc-link"><p>Overview</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#coordinate-system" class="md-toc-link">
+            <p>Coordinate System</p>
+
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#部位の名称" class="md-toc-link"><p>部位の名称</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#名称例1-例-ガンダム" class="md-toc-link">
+            <p>名称例1 (例: ガンダム)</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#specification" class="md-toc-link"><p>Specification</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#definition" class="md-toc-link"><p>Definition</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#基本姿勢" class="md-toc-link"><p>基本姿勢</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#y字ポーズ" class="md-toc-link">
+            <p>Y字ポーズ</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#t字ポーズ" class="md-toc-link">
+            <p>T字ポーズ</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#coordinate-system-1" class="md-toc-link"><p>Coordinate System</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#robot" class="md-toc-link">
+            <p>Robot</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#room" class="md-toc-link">
+            <p>Room</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#layer" class="md-toc-link"><p>Layer</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#user-layer" class="md-toc-link">
+            <p>User Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#ai-layer" class="md-toc-link">
+            <p>AI Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#application-layer" class="md-toc-link">
+            <p>Application Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#communication-layer" class="md-toc-link">
+            <p>Communication Layer</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#physical-layer" class="md-toc-link">
+            <p>Physical Layer</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#" class="md-toc-link">
+            <p>？？？</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#hardware-requirements" class="md-toc-link">
+            <p>Hardware Requirements</p>
+
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#software-requirements" class="md-toc-link"><p>Software Requirements</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#プロトコル" class="md-toc-link">
+            <p>プロトコル</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#assembly-procedure" class="md-toc-link"><p>Assembly Procedure</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#全体像" class="md-toc-link">
+            <p>全体像</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#parts-list" class="md-toc-link">
+            <p>Parts List</p>
+
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#assemble" class="md-toc-link"><p>ASSEMBLE</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#arm-units-assemble" class="md-toc-link">
+            <p>ARM UNITS ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#body-assemble" class="md-toc-link">
+            <p>BODY ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#head-assemble" class="md-toc-link">
+            <p>HEAD ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#leg-units-assemble" class="md-toc-link">
+            <p>LEG UNITS ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#waist-assemble" class="md-toc-link">
+            <p>WAIST ASSEMBLE</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#option-parts-assemble" class="md-toc-link">
+            <p>OPTION PARTS ASSEMBLE</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#non-functional-requirements" class="md-toc-link">
+            <p>Non-Functional Requirements</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#reference" class="md-toc-link">
+            <p>Reference</p>
+
+          </a></div><details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#appendix" class="md-toc-link"><p>Appendix</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#課題" class="md-toc-link">
+            <p>課題</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#職業一覧" class="md-toc-link">
+            <p>職業一覧</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+</div>
+</div>
+      <a id="sidebar-toc-btn">≡</a>
+    
+    
+    
+    
+    
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  
+    </body></html>
